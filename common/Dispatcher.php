@@ -17,7 +17,7 @@ class Dispatcher
     // コントローラーインスタンス生成
     $controllerName = 'pages';
     if (0 < count($params)) {
-      $controllerName = $params[2];
+      $controllerName = $params[1];
     }
     $controller = $this->getController($controllerName);
     if (null == $controller) {
@@ -28,7 +28,7 @@ class Dispatcher
     // アクション設定
     $actionName = 'index';
     if (1 < count($params)) {
-      $actionName = $params[3];
+      $actionName = $params[2];
     }
     if (false == method_exists($controller, $actionName . 'Action')) {
       header('HTTP/1.0 404 Not Found');
@@ -37,7 +37,8 @@ class Dispatcher
     $controller->setAction($actionName);
 
     // コントローラーの実行 
-    $controller->run();
+    //$controller->run();
+    $controller->indexAction();
   }
 
   /*
@@ -46,7 +47,7 @@ class Dispatcher
   private function getController($controllerName)
   {
     // 1文字目を大文字に変換しControllerを付ける
-    $className = ucfirst(strtolower($controller)) . 'Controller';
+    $className = ucfirst(strtolower($controllerName)) . 'Controller';
     // コントローラーのファイル名
     $fileName = sprintf('controllers/%s.php', $className);
     // ファイル存在チェック
@@ -54,15 +55,15 @@ class Dispatcher
       return null;
     }
     // クラスファイルを読込
-    require_once $fileName
+    require_once $fileName;
     // クラスが定義されているかチェック
-    if (false == class_exists($className()) {
+    if (false == class_exists($className)) {
       return null;
     }
     // クラスインスタンス生成
     $instance = new $className;
 
-    return $instance
+    return $instance;
   }
 }
 

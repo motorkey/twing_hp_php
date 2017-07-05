@@ -1,0 +1,18 @@
+$main-theme-color: #fff;
+$black: #000;
+$sub-theme-color: #0e1f3c;
+$top-news-color: #f0f0f0;
+
+$hamburger-width: 52px;
+$breakpoints: (
+  'mobile': 'screen and (max-width: 640px)',
+  //'tablet': 'screen and (min-width: 980px)',
+) !default;
+$top-section-padding: 24px;
+$top-section-content-margin: 8px;
+$top-project-padding: 68px;
+$top-project-padding-left: 40px;
+
+$top-project-negative-margin: - ($top-section-padding + $top-section-content-margin + $top-project-padding + 1px);
+
+$top-project-img-translucent-width: 70px;

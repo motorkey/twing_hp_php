@@ -1,0 +1,108 @@
+.contactNav {
+  width: 95%;
+  margin: 2vw auto 0 auto; // 仮
+  &__title {
+    width: 28vw;
+    text-align: center;
+  }
+  &__main-title {
+    color: white;
+    text-align: center;
+    padding-top: 1vw;
+    font-size: 1.5vw;
+  }
+  &__sub-title {
+    color: white;
+    text-align: center;
+    font-size: 0.5vw;
+  }
+  &__item {
+    border: 1px solid gray;
+    width: 100%;
+    &__inner {
+      // padding-bottom: 3vw;
+    }
+  }
+}
+
+.contact-page__title {
+  margin-left: 3vw;
+}
+
+.contentBorder {
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+.contactNav__inner {
+  width: 65%;
+  margin: 0 auto;
+  &__title {
+    font-size: 1.5vw;
+    font-weight: bold;
+  }
+}
+
+.contactForm {
+  padding-top: 3vw;
+  padding-bottom: 6vw;
+  &__item {
+    margin: 2.5vw auto 0 auto;
+    width: 70%;
+    &__btn {
+      text-align: center;
+      margin-top: 3.5vw;
+    }
+  }
+  &__form-label {
+    display: inline-block;
+    font-size: 1vw;
+    font-weight: bold;
+    width: 10vw;
+  }
+  &__form {
+    width: 80%;
+    height: 2.5vw;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 1.2vw;
+    @include media-query(mobile) {
+      height: 3vw;
+    }
+  }
+  &__form-require {
+    height: 10vw;
+  }
+  &__btn {
+    height: 3vw;
+    width: 10vw;
+    line-height: 3vw;
+    background-color: $sub-theme-color;
+    border-radius: 0.5vw;
+    border: none;
+    color: white;
+    font-size: 1.5vw;
+    @include media-query(mobile) {
+      height: 3.5vw;
+      line-height: 3.5vw;
+      width: 15vw;
+    }
+  }
+}
+
+.form-label--alignTop {
+  vertical-align: top;
+}
+
+.contact--sp__horizontal-line--none {
+  @include media-query(mobile) {
+    display: none;
+  }
+}
+
+.contact__title--sp {
+  @include media-query(mobile) {
+    font-size: 5vw;
+  }
+}

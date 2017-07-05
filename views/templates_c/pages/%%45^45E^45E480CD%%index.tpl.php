@@ -1,17 +1,29 @@
-<?php /* Smarty version 2.6.30, created on 2017-07-05 02:42:34
+<?php /* Smarty version 2.6.30, created on 2017-07-05 15:39:02
          compiled from index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'html_image', 'index.tpl', 22, false),)), $this); ?>
 <html lang="ja">
 
 <head>
+
+<meta charset="utf-8">
+<title>中小企業向けの採用支援なら | 株式会社ツイング</title>
+<meta name="description" content=".....">
+<meta name="keywords" content="...,...">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/initialize.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="icon" href="img/favicon.ico">
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="js/top.js"></script>
+
 </head>
 
 <body class="top">
 <header class="topHeader topHeader--sp">
   <div class="topHeader__logo">
     <a href="top.html">
-      <?php echo smarty_function_html_image(array('file' => '../../img/logo.png','alt' => 'logo'), $this);?>
+      <?php echo smarty_function_html_image(array('file' => 'img/logo.png','alt' => 'logo','class' => 'topHeader__logo__image'), $this);?>
 
     </a>
   </div>

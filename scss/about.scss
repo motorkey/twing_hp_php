@@ -1,0 +1,43 @@
+.UpperImage {
+  width: 100vw;
+  z-index: 1;
+}
+
+.aboutContent {
+  border: 1px solid gray;
+  margin: 0 5vw; // temp
+  z-index: 2;
+  position: relative;
+  bottom: 10vw;
+  background-color: white;
+}
+.aboutUpperSection {
+  padding: 5vw 10vw 2vw 10vw;
+  &__title {
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.5vw;
+    @include media-query(mobile) {
+      display: block;
+      margin-bottom: 1vw;
+    }
+  }
+  &__content {
+    display: inline-block;
+    width: 80%;
+    padding-left: 5vw;
+    padding-top: 0.5vw;
+    padding-bottom: 3vw;
+  }
+  &__item {
+    font-size: 1.2vw;
+    padding-bottom: 0.5vw;
+  }
+}
+
+.aboutLowerSection {
+  &__gmap {
+    height: 25vw;
+  }
+}

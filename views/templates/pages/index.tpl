@@ -1,6 +1,7 @@
 <html lang="ja">
 
 <head>
+{*
 <meta charset="utf-8">
 <title>中小企業向けの採用支援なら | 株式会社ツイング</title>
 <meta name="description" content=".....">
@@ -11,6 +12,7 @@
 <link rel="icon" href="img/favicon.ico">
 <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="js/top.js"></script>
+*}
 </head>
 
 <body class="top">

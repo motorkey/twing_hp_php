@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="/css/initialize.css">
 <link rel="stylesheet" href="/css/base.css">
 <link rel="icon" href="/img/favicon.ico">
-<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="/js/top.js"></script>
 <script type="text/javascript" src="/js/about.js"></script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApPdkEUJH-lpCI-k1P250OCSD7R1uGtgY"></script>

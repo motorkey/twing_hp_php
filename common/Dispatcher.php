@@ -5,7 +5,7 @@ class Dispatcher
 
   public function dispatch()
   {
-    
+
     // URLを分解してparamsを取得
     $url = $_SERVER['REQUEST_URI'];
     $urlTrimmed = trim($url, '/');
@@ -24,9 +24,9 @@ class Dispatcher
       header("HTTP/1.0 404 Not Found");
       exit;
     }
-    
+
     // アクション設定
-    $actionName = 'index';
+    // $actionName = 'index';
     if (1 < count($params)) {
       $actionName = $params[2];
     }
@@ -36,9 +36,10 @@ class Dispatcher
     }
     $controller->setAction($actionName);
 
-    // コントローラーの実行 
+    // コントローラーの実行
     //$controller->run();
-    $controller->indexAction();
+    $action = $actionName . "Action";
+    $controller->$action();
   }
 
   /*

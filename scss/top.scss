@@ -262,7 +262,7 @@
     }
     &__image {
       max-height: 100%;
-      width: 20vw; // 仮
+      width: inherit; // 仮
     }
   }
   &__hamburger {

@@ -25,6 +25,11 @@ class PagesController
     $this->view->display('contact.tpl');
   }
 
+  public function aboutAction()
+  {
+    $this->view->display('about.tpl');
+  }
+
   // BaseControllerに記述するか？
   public function setAction($actionName)
   {

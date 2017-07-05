@@ -1,5 +1,7 @@
-<?php /* Smarty version 2.6.30, created on 2017-07-04 12:18:08
+<?php /* Smarty version 2.6.30, created on 2017-07-04 17:57:37
          compiled from index.tpl */ ?>
+<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
+smarty_core_load_plugins(array('plugins' => array(array('function', 'html_image', 'index.tpl', 20, false),)), $this); ?>
 <html lang="ja">
 
 <head>
@@ -19,8 +21,8 @@
 <header class="topHeader topHeader--sp">
   <div class="topHeader__logo">
     <a href="top.html">
-      <img class="topHeader__logo__image" src="
-      img/logo.png" alt="logo">
+      <?php echo smarty_function_html_image(array('file' => '../../img/logo.png','alt' => 'logo'), $this);?>
+
     </a>
   </div>
   <nav>

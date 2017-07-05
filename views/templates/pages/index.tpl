@@ -17,8 +17,7 @@
 <header class="topHeader topHeader--sp">
   <div class="topHeader__logo">
     <a href="top.html">
-      <img class="topHeader__logo__image" src="
-      img/logo.png" alt="logo">
+      {html_image file='../../img/logo.png' alt='logo'}
     </a>
   </div>
   <nav>

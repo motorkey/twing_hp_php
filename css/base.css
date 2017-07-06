@@ -363,7 +363,7 @@ a.link-underline--cancel {
         background-color: white; } }
     .topHeader__logo__image {
       max-height: 100%;
-      width: 20vw; }
+      width: inherit; }
   .topHeader__hamburger__menu {
     display: none;
     position: fixed;

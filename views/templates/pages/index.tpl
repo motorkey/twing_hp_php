@@ -7,19 +7,19 @@
 <meta name="description" content=".....">
 <meta name="keywords" content="...,...">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/initialize.css">
-<link rel="stylesheet" href="css/base.css">
-<link rel="icon" href="img/favicon.ico">
-<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="js/top.js"></script>
+<link rel="stylesheet" href="/css/initialize.css">
+<link rel="stylesheet" href="/css/base.css">
+<link rel="icon" href="/img/favicon.ico">
+<script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/js/top.js"></script>
 
 </head>
 
 <body class="top">
 <header class="topHeader topHeader--sp">
   <div class="topHeader__logo">
-    <a href="top.html">
-      {html_image file='img/logo.png' alt='logo' class='topHeader__logo__image'}
+    <a href="#">
+      {html_image file='/img/logo.png' alt='logo' class='topHeader__logo__image'}
     </a>
   </div>
   <nav>
@@ -58,7 +58,7 @@
 
 <div class="topCover">
   <div class="topCover__eyecatch">
-    <img class="topCover__eyecatch__title" src="img/top/cover/eyecatch.png">
+    <img class="topCover__eyecatch__title" src="/img/top/cover/eyecatch.png">
   </div>
   <section class="topCover__image-list clearfix">
     <div class="topCover-image topCover-image--left">
@@ -101,8 +101,8 @@
   <section class="topSection__content">
     <div class="project project1">
       <div class="project__left">
-        <img class="project__photo hidden-sp" src="img/top/project/project-1.png" alt="project Image">
-        <img class="project__photo hidden-pc" src="img/top/project/project-1-sp.png" alt="Project Image">
+        <img class="project__photo hidden-sp" src="/img/top/project/project-1.png" alt="project Image">
+        <img class="project__photo hidden-pc" src="/img/top/project/project-1-sp.png" alt="Project Image">
       </div>
       <div class="project__right">
         <div class="project__right__upper">
@@ -195,8 +195,8 @@
         </div>
 
         <div class="project2__right">
-          <img class="project2__photo hidden-sp" src="img/top/project/project-2.png" alt="project Image">
-          <img class="project2__photo hidden-pc" src="img/top/project/project-2-sp.png" alt="Project Image">
+          <img class="project2__photo hidden-sp" src="/img/top/project/project-2.png" alt="project Image">
+          <img class="project2__photo hidden-pc" src="/img/top/project/project-2-sp.png" alt="Project Image">
         </div>
       </div>
     </div>
@@ -205,8 +205,8 @@
   <section class="topSection__content">
     <div class="project project3">
       <div class="project__left">
-        <img class="project__photo hidden-sp" src="img/top/project/project-3.png" alt="project Image">
-        <img class="project__photo hidden-pc" src="img/top/project/project-3-sp.png" alt="Project Image">
+        <img class="project__photo hidden-sp" src="/img/top/project/project-3.png" alt="project Image">
+        <img class="project__photo hidden-pc" src="/img/top/project/project-3-sp.png" alt="Project Image">
 
       </div>
       <div class="project__right">
@@ -310,8 +310,8 @@
         </div>
 
         <div class="project2__right">
-          <img class="project2__photo hidden-sp" src="img/top/project/project-4.png" alt="project Image">
-          <img class="project2__photo hidden-pc" src="img/top/project/project-4-sp.png" alt="Project Image">
+          <img class="project2__photo hidden-sp" src="/img/top/project/project-4.png" alt="project Image">
+          <img class="project2__photo hidden-pc" src="/img/top/project/project-4-sp.png" alt="Project Image">
         </div>
       </div>
     </div>
@@ -370,22 +370,22 @@
     <article class="topPeople__person">
       <p class="topPeople__person__slogan">一人ずつキャッチコピーをここに入れる</p>
       <h3 class="topPeople__person__name">井川 皓貴</h3>
-      <img class="topPeople__person__image" src="img/top/people/person-1.png" alt="Person Image">
+      <img class="topPeople__person__image" src="/img/top/people/person-1.png" alt="Person Image">
     </article>
     <article class="topPeople__person">
       <p class="topPeople__person__slogan">一人ずつキャッチコピーをここに入れる</p>
       <h3 class="topPeople__person__name">井川 皓貴</h3>
-      <img class="topPeople__person__image" src="img/top/people/person-1.png" alt="Person Image">
+      <img class="topPeople__person__image" src="/img/top/people/person-1.png" alt="Person Image">
     </article>
     <article class="topPeople__person">
       <p class="topPeople__person__slogan">一人ずつキャッチコピーをここに入れる</p>
       <h3 class="topPeople__person__name">井川 皓貴</h3>
-      <img class="topPeople__person__image" src="img/top/people/person-1.png" alt="Person Image">
+      <img class="topPeople__person__image" src="/img/top/people/person-1.png" alt="Person Image">
     </article>
     <article class="topPeople__person">
       <p class="topPeople__person__slogan">一人ずつキャッチコピーをここに入れる</p>
       <h3 class="topPeople__person__name">井川 皓貴</h3>
-      <img class="topPeople__person__image" src="img/top/people/person-1.png" alt="Person Image">
+      <img class="topPeople__person__image" src="/img/top/people/person-1.png" alt="Person Image">
     </article>
   </section>
   <div class="scroll-to-top">
@@ -396,7 +396,7 @@
 <footer class="footer">
   <div class="footer--left">
     <div class="footer__logo">
-      <img class="footer__logo__image", src="img/logo-2.png" alt="logo">
+      <img class="footer__logo__image", src="/img/logo-2.png" alt="logo">
     </div>
   </div>
   <div class="footer--right footer__gnavs">

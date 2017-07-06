@@ -897,3 +897,17 @@ a.link-underline--cancel {
 
 .aboutLowerSection__gmap {
   height: 25vw; }
+
+.success__message {
+  margin: 10vw auto;
+  text-align: center; }
+  .success__message__text {
+    font-weight: bold;
+    margin-top: 1vw; }
+
+.failure__message {
+  margin: 10vw auto;
+  text-align: center; }
+  .failure__message__text {
+    font-weight: bold;
+    margin-top: 1vw; }

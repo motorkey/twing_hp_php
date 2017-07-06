@@ -117,7 +117,7 @@
       </form>
     </div>
     <div id="tab2" class="tab-pane">
-      <div class="contactForm">
+      <form class="contactForm" action="/confirm.php" method="POST">
         <div class="contactForm__item">
           <label class="contactForm__form-label" for="company_name">大学名</label>
           <input type="text" name="company_name" class="contactForm__form" id="univ_name" autofocus>
@@ -145,10 +145,10 @@
         <div class="contactForm__item contactForm__item__btn">
           <input type="submit" value="内容を送信" class="contactForm__btn">
         </div>
-      </div>
+      </form>
     </div>
     <div id="tab3" class="tab-pane">
-      <div class="contactForm">
+      <form class="contactForm" action="/confirm.php" method="POST">
         <div class="contactForm__item">
           <label class="contactForm__form-label" for="company_name">大学名</label>
           <input type="text" name="company_name" class="contactForm__form" id="univ_name" autofocus>
@@ -176,7 +176,7 @@
         <div class="contactForm__item contactForm__item__btn">
           <input type="submit" value="内容を送信" class="contactForm__btn">
         </div>
-      </div>
+      </form>
     </div>
   </div>
 </div>

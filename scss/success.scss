@@ -1,0 +1,10 @@
+.success {
+  &__message {
+    margin: 10vw auto;
+    text-align: center;
+    &__text {
+      font-weight: bold;
+      margin-top: 1vw;
+    }
+  }
+}

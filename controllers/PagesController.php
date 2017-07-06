@@ -30,6 +30,16 @@ class PagesController
     $this->view->display('about.tpl');
   }
 
+  public function successAction()
+  {
+    $this->view->display('success.tpl');
+  }
+
+  public function failureAction()
+  {
+    $this->view->display('failure.tpl');
+  }
+
   // BaseControllerに記述するか？
   public function setAction($actionName)
   {

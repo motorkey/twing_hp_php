@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-07-06 11:45:00
+<?php /* Smarty version 2.6.30, created on 2017-07-06 21:04:41
          compiled from index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'html_image', 'index.tpl', 22, false),)), $this); ?>
@@ -374,22 +374,22 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'html_image'
   <section class="topSection__content topPeople clearfix">
     <article class="topPeople__person">
       <p class="topPeople__person__slogan">一人ずつキャッチコピーをここに入れる</p>
-      <h3 class="topPeople__person__name">井川 皓貴</h3>
+      <!-- <h3 class="topPeople__person__name">井川 皓貴</h3> -->
       <img class="topPeople__person__image" src="/img/top/people/person-1.png" alt="Person Image">
     </article>
     <article class="topPeople__person">
       <p class="topPeople__person__slogan">一人ずつキャッチコピーをここに入れる</p>
-      <h3 class="topPeople__person__name">井川 皓貴</h3>
+      <!-- <h3 class="topPeople__person__name">井川 皓貴</h3> -->
       <img class="topPeople__person__image" src="/img/top/people/person-2.png" alt="Person Image">
     </article>
     <article class="topPeople__person">
       <p class="topPeople__person__slogan">一人ずつキャッチコピーをここに入れる</p>
-      <h3 class="topPeople__person__name">井川 皓貴</h3>
+      <!-- <h3 class="topPeople__person__name">井川 皓貴</h3> -->
       <img class="topPeople__person__image" src="/img/top/people/person-3.png" alt="Person Image">
     </article>
     <article class="topPeople__person">
       <p class="topPeople__person__slogan">一人ずつキャッチコピーをここに入れる</p>
-      <h3 class="topPeople__person__name">井川 皓貴</h3>
+      <!-- <h3 class="topPeople__person__name">井川 皓貴</h3> -->
       <img class="topPeople__person__image" src="/img/top/people/person-4.png" alt="Person Image">
     </article>
   </section>

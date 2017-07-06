@@ -17,7 +17,8 @@ class Dispatcher
     // コントローラーインスタンス生成
     $controllerName = 'pages';
     if (0 < count($params)) {
-      $controllerName = $params[1];
+      //$controllerName = $params[1];
+      $controllerName = $params[0];
     }
     $controller = $this->getController($controllerName);
     if (null == $controller) {
@@ -28,7 +29,8 @@ class Dispatcher
     // アクション設定
     // $actionName = 'index';
     if (1 < count($params)) {
-      $actionName = $params[2];
+      //$actionName = $params[2];
+      $actionName = $params[1];
     }
     if (false == method_exists($controller, $actionName . 'Action')) {
       header('HTTP/1.0 404 Not Found');

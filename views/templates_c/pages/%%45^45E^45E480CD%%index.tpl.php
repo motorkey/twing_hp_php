@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-07-05 18:16:51
+<?php /* Smarty version 2.6.30, created on 2017-07-06 14:01:15
          compiled from index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'html_image', 'index.tpl', 22, false),)), $this); ?>
@@ -154,7 +154,7 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'html_image'
         <div class="project2__left">
           <div class="project2__left__upper">
             <div class="project2__left__num hidden-pc">
-              <font face="serif" class="project2__left__num--BigBlue hidden-pc">
+              <font face="serif" class="num2 project2__left__num--BigBlue hidden-pc" style="color: rgba(26,92,160,1);">
                 2
               </font>
             </div>
@@ -162,7 +162,7 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'html_image'
               TRYOUT就活
             </div>
             <div class="project2__left__num hidden-sp">
-              <font face="serif" class="project2__left__num--BigBlue hidden-sp">
+              <font face="serif" class="project2__left__num--BigBlue hidden-sp" style="color: rgba(26,92,160,1);">
                 2
               </font>
             </div>
@@ -217,7 +217,7 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'html_image'
       <div class="project__right">
         <div class="project__right__upper">
           <div class="project__right__num">
-            <font face="serif" class="project__right__num--BigBlue project__right__num--BigBlue--3rd">
+            <font face="serif" class="project__right__num--BigBlue project__right__num--BigBlue--3rd" style="color: rgba(50,128,168,1);">
               3
             </font>
           </div>
@@ -268,7 +268,7 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'html_image'
         <div class="project2__left">
           <div class="project2__left__upper">
             <div class="project2__left__num hidden-pc">
-              <font face="serif" class="project2__left__num--BigBlue project2__left__num--BigBlue--4th hidden-pc">
+              <font face="serif" class="project2__left__num--BigBlue project2__left__num--BigBlue--4th hidden-pc" style="color: rgba(111,182,210,1);">
                 4
               </font>
             </div>
@@ -276,7 +276,7 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'html_image'
               社長スカウト会
             </div>
             <div class="project2__left__num hidden-sp">
-              <font face="serif" class="project2__left__num--BigBlue hidden-sp">
+              <font face="serif" class="project2__left__num--BigBlue hidden-sp" style="color: rgba(111,182,210,1);">
                 4
               </font>
             </div>

@@ -149,7 +149,7 @@
         <div class="project2__left">
           <div class="project2__left__upper">
             <div class="project2__left__num hidden-pc">
-              <font face="serif" class="project2__left__num--BigBlue hidden-pc">
+              <font face="serif" class="num2 project2__left__num--BigBlue hidden-pc" style="color: rgba(26,92,160,1);">
                 2
               </font>
             </div>
@@ -157,7 +157,7 @@
               TRYOUT就活
             </div>
             <div class="project2__left__num hidden-sp">
-              <font face="serif" class="project2__left__num--BigBlue hidden-sp">
+              <font face="serif" class="project2__left__num--BigBlue hidden-sp" style="color: rgba(26,92,160,1);">
                 2
               </font>
             </div>
@@ -212,7 +212,7 @@
       <div class="project__right">
         <div class="project__right__upper">
           <div class="project__right__num">
-            <font face="serif" class="project__right__num--BigBlue project__right__num--BigBlue--3rd">
+            <font face="serif" class="project__right__num--BigBlue project__right__num--BigBlue--3rd" style="color: rgba(50,128,168,1);">
               3
             </font>
           </div>
@@ -263,7 +263,7 @@
         <div class="project2__left">
           <div class="project2__left__upper">
             <div class="project2__left__num hidden-pc">
-              <font face="serif" class="project2__left__num--BigBlue project2__left__num--BigBlue--4th hidden-pc">
+              <font face="serif" class="project2__left__num--BigBlue project2__left__num--BigBlue--4th hidden-pc" style="color: rgba(111,182,210,1);">
                 4
               </font>
             </div>
@@ -271,7 +271,7 @@
               社長スカウト会
             </div>
             <div class="project2__left__num hidden-sp">
-              <font face="serif" class="project2__left__num--BigBlue hidden-sp">
+              <font face="serif" class="project2__left__num--BigBlue hidden-sp" style="color: rgba(111,182,210,1);">
                 4
               </font>
             </div>

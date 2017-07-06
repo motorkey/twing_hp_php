@@ -284,6 +284,9 @@ a.link-underline--cancel {
         position: absolute;
         top: -8vw;
         left: -5vw; }
+    .project2__left__num2 {
+      color: #1a5ca0 !important;
+      font-size: 20vw; }
     .project2__left__title {
       display: inline-block;
       vertical-align: top;
@@ -319,6 +322,9 @@ a.link-underline--cancel {
       .project2__photo {
         width: 20vw;
         height: 60vw; } }
+
+.num2 {
+  color: #1a5ca0; }
 
 @media screen and (max-width: 760px) {
   .project3 {

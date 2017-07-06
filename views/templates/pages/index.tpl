@@ -149,7 +149,7 @@
         <div class="project2__left">
           <div class="project2__left__upper">
             <div class="project2__left__num hidden-pc">
-              <font face="serif" class="num2 project2__left__num--BigBlue hidden-pc" style="color: rgba(26,92,160,1);">
+              <font face="serif" class="project2__left__num--BigBlue hidden-pc" style="color: rgba(26,92,160,1);">
                 2
               </font>
             </div>

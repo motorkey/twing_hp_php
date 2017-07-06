@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-07-05 18:11:24
+<?php /* Smarty version 2.6.30, created on 2017-07-05 20:09:49
          compiled from contact.tpl */ ?>
 <html lang="ja">
 
@@ -88,7 +88,7 @@
 
   <div class="tab-content contentBorder">
     <div id="tab1" class="tab-pane active">
-      <div class="contactForm">
+      <form class="contactForm" action="/confirm.php" method="POST">
         <div class="contactForm__item contactForm--company">
           <label class="contactForm__form-label" for="company_name">御社名</label>
           <input type="text" name="company_name" class="contactForm__form" id="company_name" autofocus>
@@ -116,7 +116,7 @@
         <div class="contactForm__item contactForm__item__btn">
           <input type="submit" value="内容を送信" class="contactForm__btn">
         </div>
-      </div>
+      </form>
     </div>
     <div id="tab2" class="tab-pane">
       <div class="contactForm">

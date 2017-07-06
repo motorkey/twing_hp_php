@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-07-05 18:28:33
+<?php /* Smarty version 2.6.30, created on 2017-07-06 15:41:06
          compiled from about.tpl */ ?>
 <html lang="ja">
 
@@ -21,7 +21,7 @@
 
 <header class="topHeader topHeader--sp">
   <div class="topHeader__logo">
-    <a href="top.html">
+    <a href="/index.php/pages/index">
       <img class="topHeader__logo__image" src="
       /img/logo.png" alt="logo">
     </a>
@@ -46,13 +46,13 @@
         <a href="news" class="link-underline--cancel">
           <li class="hamburger__gnavs__item">ニュース</li>
         </a>
-        <a href="about.html" class="link-underline--cancel">
+        <a href="/index.php/pages/about" class="link-underline--cancel">
           <li class="hamburger__gnavs__item">会社概要</li>
         </a>
         <a href="profile" class="link-underline--cancel">
           <li class="hamburger__gnavs__item">プロフィール</li>
         </a>
-        <a href="contact.html" class="link-underline--cancel">
+        <a href="/index.php/pages/contact" class="link-underline--cancel">
           <li class="hamburger__gnavs__item">お問い合わせ</li>
         </a>
       </ul>
@@ -110,13 +110,13 @@
         <a href="news.html" class="link-underline--cancel">ニュース</a>
       </li>
       <li class="footer__gnavs__item">・
-        <a href="about.html" class="link-underline--cancel">会社概要</a>
+        <a href="/index.php/pages/about" class="link-underline--cancel">会社概要</a>
       </li>
       <li class="footer__gnavs__item">・
         <a href="#" class="link-underline--cancel">プロフィール</a>
       </li>
       <li class="footer__gnavs__item">・
-        <a href="contact.html" class="link-underline--cancel">お問い合わせ</a>
+        <a href="/index.php/pages/contact" class="link-underline--cancel">お問い合わせ</a>
       </li>
     </ul>
   </div>

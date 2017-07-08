@@ -825,15 +825,15 @@ a.link-underline--cancel {
       margin-top: 3.5vw; }
   .contactForm__form-label {
     display: inline-block;
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     font-weight: bold;
     width: 12vw; }
     @media screen and (max-width: 640px) {
       .contactForm__form-label {
-        width: 18vw; } }
+        width: 18vw;
+        font-size: 2.5vw; } }
   .contactForm__form {
     width: 80%;
-    height: 2.5vw;
     border: 1px solid gray;
     border-radius: 4px;
     font-size: 2.3vw; }
@@ -842,10 +842,12 @@ a.link-underline--cancel {
         height: 5vw;
         width: 60%; } }
   .contactForm__form-require {
-    height: 10vw; }
+    height: 15vw; }
     @media screen and (max-width: 640px) {
       .contactForm__form-require {
         height: 20vw; } }
+  .contactForm__form-select {
+    font-size: 1.6vw; }
   .contactForm__btn {
     height: 3vw;
     width: 10vw;
@@ -912,6 +914,9 @@ a.link-underline--cancel {
 
 .aboutLowerSection__gmap {
   height: 25vw; }
+  @media screen and (max-width: 640px) {
+    .aboutLowerSection__gmap {
+      height: 35vw; } }
 
 .success__message {
   margin: 10vw auto;

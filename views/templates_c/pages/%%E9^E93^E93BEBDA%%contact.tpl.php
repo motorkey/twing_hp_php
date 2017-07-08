@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-07-08 22:16:05
+<?php /* Smarty version 2.6.30, created on 2017-07-08 23:38:08
          compiled from contact.tpl */ ?>
 <html lang="ja">
 
@@ -138,7 +138,7 @@
         </div>
         <div class="contactForm__item">
           <label class="contactForm__form-label" for="request">問い合わせ理由</label>
-          <select name="request" class="contactForm__form" id="request">
+          <select name="request" class="contactForm__form contactForm__form-select" id="request">
             <option value="a">イベント参加</option>
             <option value="b">個人面談希望</option>
             <option value="c">その他</option>

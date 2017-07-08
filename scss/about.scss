@@ -43,5 +43,8 @@
 .aboutLowerSection {
   &__gmap {
     height: 25vw;
+    @include media-query(mobile) {
+      height: 35vw;
+    }
   }
 }

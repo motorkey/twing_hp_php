@@ -61,16 +61,17 @@
   }
   &__form-label {
     display: inline-block;
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     font-weight: bold;
     width: 12vw;
     @include media-query(mobile) {
       width: 18vw;
+      font-size: 2.5vw;
     }
   }
   &__form {
     width: 80%;
-    height: 2.5vw;
+
     border: 1px solid gray;
     border-radius: 4px;
     font-size: 2.3vw;
@@ -80,10 +81,13 @@
     }
   }
   &__form-require {
-    height: 10vw;
+    height: 15vw;
     @include media-query(mobile) {
       height: 20vw;
     }
+  }
+  &__form-select {
+    font-size: 1.6vw;
   }
   &__btn {
     height: 3vw;

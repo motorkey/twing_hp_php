@@ -886,27 +886,29 @@
   color: $main-theme-color;
   padding: 30px 15px 30px 30px;
   position: relative;
-  @media screen and (max-width: 414px) {
-    padding: 20px 0 20px 20px;
-  }
   &--left {
     display: inline-block;
     width: 45%;
     vertical-align: top;
-    @media screen and (max-width: 414px) {
-      width: 30%;
+    @include media-query(mobile) {
+      margin: 0 auto;
+      display: block;
     }
   }
   &__logo {
     text-align: right;
     padding-right: 60px;
     margin-top: 25px;
-    @media screen and (max-width: 414px) {
-      padding-right: 40px;
-      margin-top: 15px;
+    @include media-query(mobile) {
+      text-align: center;
+      padding-right: 4vw;
+      margin-top: 0;
     }
     &__image {
       height: 4vw;
+      @include media-query(mobile) {
+        height: 6vw;
+      }
     }
   }
   &--right {
@@ -914,20 +916,20 @@
     vertical-align: top;
     width: 50%;
     border-left: 1px solid gray;
-    @media screen and (max-width: 414px) {
-      width: 65%;
+    @include media-query(mobile) {
+      display: none;
     }
   }
   &__copyright {
-  font-size: 0.4rem;
-  opacity: 0.5;
-  position: absolute;
-  left: 10px;
-  bottom: 10px;
-  @include media-query(mobile) {
-    left: 1vw;
-    bottom: 1vw;
-  }
+    font-size: 0.4rem;
+    opacity: 0.5;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    @include media-query(mobile) {
+      left: 1vw;
+      bottom: 1vw;
+    }
   }
   &__gnavs {
     &--left {
@@ -942,9 +944,6 @@
       vertical-align: top;
       width: 45%;
       font-size: 1.8vw;
-      @media screen and (max-width: 414px) {
-        font-size: 1.5vw;
-      }
     }
     &__item {
       padding: 0.3vw;

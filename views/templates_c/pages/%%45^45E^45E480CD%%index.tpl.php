@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-07-06 21:14:01
+<?php /* Smarty version 2.6.30, created on 2017-07-08 22:10:23
          compiled from index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'html_image', 'index.tpl', 22, false),)), $this); ?>
@@ -152,14 +152,14 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'html_image'
     <div class="project2">
       <div class="project2__inner">
         <div class="project2__left">
-          <div class="project2__left__upper">
+          <div class="project2__left__upper project2__left__upper--2nd">
             <div class="project2__left__num hidden-pc">
               <font face="serif" class="project2__left__num--BigBlue hidden-pc" style="color: rgba(26,92,160,1);">
                 2
               </font>
             </div>
             <div class="project2__left__title">
-              TRYOUT就活
+              学内インターン
             </div>
             <div class="project2__left__num hidden-sp">
               <font face="serif" class="project2__left__num--BigBlue hidden-sp" style="color: rgba(26,92,160,1);">

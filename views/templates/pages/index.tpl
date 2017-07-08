@@ -147,14 +147,14 @@
     <div class="project2">
       <div class="project2__inner">
         <div class="project2__left">
-          <div class="project2__left__upper">
+          <div class="project2__left__upper project2__left__upper--2nd">
             <div class="project2__left__num hidden-pc">
               <font face="serif" class="project2__left__num--BigBlue hidden-pc" style="color: rgba(26,92,160,1);">
                 2
               </font>
             </div>
             <div class="project2__left__title">
-              TRYOUT就活
+              学内インターン
             </div>
             <div class="project2__left__num hidden-sp">
               <font face="serif" class="project2__left__num--BigBlue hidden-sp" style="color: rgba(26,92,160,1);">

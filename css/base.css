@@ -271,7 +271,7 @@ a.link-underline--cancel {
           left: -15vw; } }
       @media screen and (max-width: 640px) {
         .project2__left__upper--2nd {
-          left: -12vw; } }
+          left: -11vw; } }
     .project2__left__num {
       height: 100%;
       width: 5%;
@@ -822,18 +822,18 @@ a.link-underline--cancel {
       margin-top: 3.5vw; }
   .contactForm__form-label {
     display: inline-block;
-    font-size: 1vw;
+    font-size: 2.5vw;
     font-weight: bold;
-    width: 10vw; }
+    width: 12vw; }
   .contactForm__form {
     width: 80%;
     height: 2.5vw;
     border: 1px solid gray;
     border-radius: 4px;
-    font-size: 1.2vw; }
+    font-size: 2.3vw; }
     @media screen and (max-width: 640px) {
       .contactForm__form {
-        height: 3vw; } }
+        height: 5vw; } }
   .contactForm__form-require {
     height: 10vw; }
   .contactForm__btn {
@@ -847,9 +847,10 @@ a.link-underline--cancel {
     font-size: 1.5vw; }
     @media screen and (max-width: 640px) {
       .contactForm__btn {
-        height: 3.5vw;
-        line-height: 3.5vw;
-        width: 15vw; } }
+        height: 5vw;
+        line-height: 5vw;
+        width: 15vw;
+        font-size: 2.5vw; } }
 
 .form-label--alignTop {
   vertical-align: top; }
@@ -875,7 +876,7 @@ a.link-underline--cancel {
   background-color: white; }
 
 .aboutUpperSection {
-  padding: 5vw 10vw 2vw 10vw; }
+  padding: 5vw 4vw 2vw 10vw; }
   .aboutUpperSection__title {
     font-weight: bold;
     display: inline-block;
@@ -884,7 +885,8 @@ a.link-underline--cancel {
     @media screen and (max-width: 640px) {
       .aboutUpperSection__title {
         display: block;
-        margin-bottom: 1vw; } }
+        margin-bottom: 1vw;
+        font-size: 3vw; } }
   .aboutUpperSection__content {
     display: inline-block;
     width: 80%;
@@ -894,6 +896,9 @@ a.link-underline--cancel {
   .aboutUpperSection__item {
     font-size: 1.2vw;
     padding-bottom: 0.5vw; }
+    @media screen and (max-width: 640px) {
+      .aboutUpperSection__item {
+        font-size: 2.5vw; } }
 
 .aboutLowerSection__gmap {
   height: 25vw; }

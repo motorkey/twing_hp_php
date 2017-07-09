@@ -65,23 +65,21 @@
       <div class="topCover-image__filter--left"></div>
       <div class="topCover-image__outer-circle topCover-image__outer-circle--left">
         <div class="topCover-image__outer-circle__inner-circle js-topCover-change-inner">
-          <span>ビジョナリー・カンバニーにスポットライトを</span>
+          <span>企業の方へ</span>
         </div>
       </div>
     </div>
     <div class="topCover-image topCover-image--center">
       <div class="topCover-image__outer-circle topCover-image__outer-circle--center">
         <div class="topCover-image__outer-circle__inner-circle">
-          <span>君にしかない道を</span>
-          <span>見つけていく</span>
+          <span>学生の方へ</span>
         </div>
       </div>
     </div>
     <div class="topCover-image topCover-image--right">
       <div class="topCover-image__outer-circle topCover-image__outer-circle--right">
         <div class="topCover-image__outer-circle__inner-circle">
-          <span>これまでにない</span>
-          <span>学生サポートを</span>
+          <span>大学の方へ</span>
         </div>
       </div>
     </div>
@@ -368,23 +366,23 @@
   <!--<span class="topSection__title__line topSection__title__line--v"></span>-->
   <section class="topSection__content topPeople clearfix">
     <article class="topPeople__person">
-      <p class="topPeople__person__slogan">一人ずつキャッチコピーをここに入れる</p>
-      <h3 class="topPeople__person__name">井川 皓貴</h3>
+      {*<p class="topPeople__person__slogan">一人ずつキャッチコピーをここに入れる</p>
+      <h3 class="topPeople__person__name">井川 皓貴</h3>*}
       <img class="topPeople__person__image" src="/img/top/people/person-1.png" alt="Person Image">
     </article>
     <article class="topPeople__person">
-      <p class="topPeople__person__slogan">一人ずつキャッチコピーをここに入れる</p>
-      <h3 class="topPeople__person__name">井川 皓貴</h3>
+      {*<p class="topPeople__person__slogan">一人ずつキャッチコピーをここに入れる</p>
+      <h3 class="topPeople__person__name">井川 皓貴</h3>*}
       <img class="topPeople__person__image" src="/img/top/people/person-2.png" alt="Person Image">
     </article>
     <article class="topPeople__person">
-      <p class="topPeople__person__slogan">一人ずつキャッチコピーをここに入れる</p>
-      <h3 class="topPeople__person__name">井川 皓貴</h3>
+      {*<p class="topPeople__person__slogan">一人ずつキャッチコピーをここに入れる</p>
+      <h3 class="topPeople__person__name">井川 皓貴</h3>*}
       <img class="topPeople__person__image" src="/img/top/people/person-3.png" alt="Person Image">
     </article>
     <article class="topPeople__person">
-      <p class="topPeople__person__slogan">一人ずつキャッチコピーをここに入れる</p>
-      <h3 class="topPeople__person__name">井川 皓貴</h3>
+      {*<p class="topPeople__person__slogan">一人ずつキャッチコピーをここに入れる</p>
+      <h3 class="topPeople__person__name">井川 皓貴</h3>*}
       <img class="topPeople__person__image" src="/img/top/people/person-4.png" alt="Person Image">
     </article>
   </section>

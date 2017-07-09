@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-07-05 20:09:49
+<?php /* Smarty version 2.6.30, created on 2017-07-08 22:16:05
          compiled from contact.tpl */ ?>
 <html lang="ja">
 
@@ -22,7 +22,7 @@
 
 <header class="topHeader topHeader--sp">
   <div class="topHeader__logo">
-    <a href="top.html">
+    <a href="/pages/index">
       <img class="topHeader__logo__image" src="
       /img/logo.png" alt="logo">
     </a>
@@ -47,13 +47,13 @@
         <a href="news" class="link-underline--cancel">
           <li class="hamburger__gnavs__item">ニュース</li>
         </a>
-        <a href="about.html" class="link-underline--cancel">
+        <a href="/pages/about" class="link-underline--cancel">
           <li class="hamburger__gnavs__item">会社概要</li>
         </a>
         <a href="profile" class="link-underline--cancel">
           <li class="hamburger__gnavs__item">プロフィール</li>
         </a>
-        <a href="contact.html" class="link-underline--cancel">
+        <a href="/pages/contact" class="link-underline--cancel">
           <li class="hamburger__gnavs__item">お問い合わせ</li>
         </a>
       </ul>
@@ -119,7 +119,7 @@
       </form>
     </div>
     <div id="tab2" class="tab-pane">
-      <div class="contactForm">
+      <form class="contactForm" action="/confirm.php" method="POST">
         <div class="contactForm__item">
           <label class="contactForm__form-label" for="company_name">大学名</label>
           <input type="text" name="company_name" class="contactForm__form" id="univ_name" autofocus>
@@ -147,10 +147,10 @@
         <div class="contactForm__item contactForm__item__btn">
           <input type="submit" value="内容を送信" class="contactForm__btn">
         </div>
-      </div>
+      </form>
     </div>
     <div id="tab3" class="tab-pane">
-      <div class="contactForm">
+      <form class="contactForm" action="/confirm.php" method="POST">
         <div class="contactForm__item">
           <label class="contactForm__form-label" for="company_name">大学名</label>
           <input type="text" name="company_name" class="contactForm__form" id="univ_name" autofocus>
@@ -178,7 +178,7 @@
         <div class="contactForm__item contactForm__item__btn">
           <input type="submit" value="内容を送信" class="contactForm__btn">
         </div>
-      </div>
+      </form>
     </div>
   </div>
 </div>
@@ -186,7 +186,9 @@
 <footer class="footer">
   <div class="footer--left">
     <div class="footer__logo">
-      <img class="footer__logo__image", src="/img/logo-2.png" alt="logo">
+      <a href="/pages/index">
+        <img class="footer__logo__image", src="/img/logo-2.png" alt="logo">
+      </a>
     </div>
   </div>
   <div class="footer--right footer__gnavs">
@@ -206,13 +208,13 @@
         <a href="news.html" class="link-underline--cancel">ニュース</a>
       </li>
       <li class="footer__gnavs__item">・
-        <a href="about.html" class="link-underline--cancel">会社概要</a>
+        <a href="/pages/about" class="link-underline--cancel">会社概要</a>
       </li>
       <li class="footer__gnavs__item">・
         <a href="#" class="link-underline--cancel">プロフィール</a>
       </li>
       <li class="footer__gnavs__item">・
-        <a href="contact.html" class="link-underline--cancel">お問い合わせ</a>
+        <a href="/pages/contact" class="link-underline--cancel">お問い合わせ</a>
       </li>
     </ul>
   </div>

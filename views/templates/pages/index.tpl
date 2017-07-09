@@ -18,7 +18,7 @@
 <body class="top">
 <header class="topHeader topHeader--sp">
   <div class="topHeader__logo">
-    <a href="#">
+    <a href="/pages/index">
       {html_image file='/img/logo.png' alt='logo' class='topHeader__logo__image'}
     </a>
   </div>
@@ -42,13 +42,13 @@
         <a href="news" class="link-underline--cancel">
           <li class="hamburger__gnavs__item">ニュース</li>
         </a>
-        <a href="about.html" class="link-underline--cancel">
+        <a href="/pages/about" class="link-underline--cancel">
           <li class="hamburger__gnavs__item">会社概要</li>
         </a>
         <a href="profile" class="link-underline--cancel">
           <li class="hamburger__gnavs__item">プロフィール</li>
         </a>
-        <a href="contact.html" class="link-underline--cancel">
+        <a href="/pages/contact" class="link-underline--cancel">
           <li class="hamburger__gnavs__item">お問い合わせ</li>
         </a>
       </ul>
@@ -145,14 +145,14 @@
     <div class="project2">
       <div class="project2__inner">
         <div class="project2__left">
-          <div class="project2__left__upper">
+          <div class="project2__left__upper project2__left__upper--2nd">
             <div class="project2__left__num hidden-pc">
               <font face="serif" class="project2__left__num--BigBlue hidden-pc" style="color: rgba(26,92,160,1);">
                 2
               </font>
             </div>
             <div class="project2__left__title">
-              TRYOUT就活
+              学内インターン
             </div>
             <div class="project2__left__num hidden-sp">
               <font face="serif" class="project2__left__num--BigBlue hidden-sp" style="color: rgba(26,92,160,1);">
@@ -394,7 +394,9 @@
 <footer class="footer">
   <div class="footer--left">
     <div class="footer__logo">
-      <img class="footer__logo__image", src="/img/logo-2.png" alt="logo">
+      <a href="/pages/index">
+        <img class="footer__logo__image", src="/img/logo-2.png" alt="logo">
+      </a>
     </div>
   </div>
   <div class="footer--right footer__gnavs">
@@ -414,13 +416,13 @@
         <a href="news.html" class="link-underline--cancel">ニュース</a>
       </li>
       <li class="footer__gnavs__item">・
-        <a href="about.html" class="link-underline--cancel">会社概要</a>
+        <a href="/pages/about" class="link-underline--cancel">会社概要</a>
       </li>
       <li class="footer__gnavs__item">・
         <a href="#" class="link-underline--cancel">プロフィール</a>
       </li>
       <li class="footer__gnavs__item">・
-        <a href="contact.html" class="link-underline--cancel">お問い合わせ</a>
+        <a href="/pages/contact" class="link-underline--cancel">お問い合わせ</a>
       </li>
     </ul>
   </div>

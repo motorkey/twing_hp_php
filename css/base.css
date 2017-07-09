@@ -271,7 +271,7 @@ a.link-underline--cancel {
           left: -15vw; } }
       @media screen and (max-width: 640px) {
         .project2__left__upper--2nd {
-          left: -12vw; } }
+          left: -11vw; } }
     .project2__left__num {
       height: 100%;
       width: 5%;
@@ -721,34 +721,36 @@ a.link-underline--cancel {
   color: #fff;
   padding: 30px 15px 30px 30px;
   position: relative; }
-  @media screen and (max-width: 414px) {
-    .footer {
-      padding: 20px 0 20px 20px; } }
   .footer--left {
     display: inline-block;
     width: 45%;
     vertical-align: top; }
-    @media screen and (max-width: 414px) {
+    @media screen and (max-width: 640px) {
       .footer--left {
-        width: 30%; } }
+        margin: 0 auto;
+        display: block; } }
   .footer__logo {
     text-align: right;
     padding-right: 60px;
     margin-top: 25px; }
-    @media screen and (max-width: 414px) {
+    @media screen and (max-width: 640px) {
       .footer__logo {
-        padding-right: 40px;
-        margin-top: 15px; } }
+        text-align: center;
+        padding-right: 4vw;
+        margin-top: 0; } }
     .footer__logo__image {
       height: 4vw; }
+      @media screen and (max-width: 640px) {
+        .footer__logo__image {
+          height: 6vw; } }
   .footer--right {
     display: inline-block;
     vertical-align: top;
     width: 50%;
     border-left: 1px solid gray; }
-    @media screen and (max-width: 414px) {
+    @media screen and (max-width: 640px) {
       .footer--right {
-        width: 65%; } }
+        display: none; } }
   .footer__copyright {
     font-size: 0.4rem;
     opacity: 0.5;
@@ -770,9 +772,6 @@ a.link-underline--cancel {
     vertical-align: top;
     width: 45%;
     font-size: 1.8vw; }
-    @media screen and (max-width: 414px) {
-      .footer__gnavs--right {
-        font-size: 1.5vw; } }
   .footer__gnavs__item {
     padding: 0.3vw;
     font-size: 1vw; }
@@ -817,25 +816,36 @@ a.link-underline--cancel {
   .contactForm__item {
     margin: 2.5vw auto 0 auto;
     width: 70%; }
+    @media screen and (max-width: 640px) {
+      .contactForm__item {
+        margin: 2.5vw 0 2.5vw 4vw;
+        width: 100%; } }
     .contactForm__item__btn {
       text-align: center;
       margin-top: 3.5vw; }
   .contactForm__form-label {
     display: inline-block;
-    font-size: 1vw;
+    font-size: 2.5vw;
     font-weight: bold;
-    width: 10vw; }
+    width: 12vw; }
+    @media screen and (max-width: 640px) {
+      .contactForm__form-label {
+        width: 18vw; } }
   .contactForm__form {
     width: 80%;
     height: 2.5vw;
     border: 1px solid gray;
     border-radius: 4px;
-    font-size: 1.2vw; }
+    font-size: 2.3vw; }
     @media screen and (max-width: 640px) {
       .contactForm__form {
-        height: 3vw; } }
+        height: 5vw;
+        width: 60%; } }
   .contactForm__form-require {
     height: 10vw; }
+    @media screen and (max-width: 640px) {
+      .contactForm__form-require {
+        height: 20vw; } }
   .contactForm__btn {
     height: 3vw;
     width: 10vw;
@@ -847,9 +857,10 @@ a.link-underline--cancel {
     font-size: 1.5vw; }
     @media screen and (max-width: 640px) {
       .contactForm__btn {
-        height: 3.5vw;
-        line-height: 3.5vw;
-        width: 15vw; } }
+        height: 8vw;
+        line-height: 8vw;
+        width: 20vw;
+        font-size: 3vw; } }
 
 .form-label--alignTop {
   vertical-align: top; }
@@ -875,7 +886,7 @@ a.link-underline--cancel {
   background-color: white; }
 
 .aboutUpperSection {
-  padding: 5vw 10vw 2vw 10vw; }
+  padding: 5vw 4vw 2vw 10vw; }
   .aboutUpperSection__title {
     font-weight: bold;
     display: inline-block;
@@ -884,7 +895,8 @@ a.link-underline--cancel {
     @media screen and (max-width: 640px) {
       .aboutUpperSection__title {
         display: block;
-        margin-bottom: 1vw; } }
+        margin-bottom: 1vw;
+        font-size: 3vw; } }
   .aboutUpperSection__content {
     display: inline-block;
     width: 80%;
@@ -894,6 +906,23 @@ a.link-underline--cancel {
   .aboutUpperSection__item {
     font-size: 1.2vw;
     padding-bottom: 0.5vw; }
+    @media screen and (max-width: 640px) {
+      .aboutUpperSection__item {
+        font-size: 2.5vw; } }
 
 .aboutLowerSection__gmap {
   height: 25vw; }
+
+.success__message {
+  margin: 10vw auto;
+  text-align: center; }
+  .success__message__text {
+    font-weight: bold;
+    margin-top: 1vw; }
+
+.failure__message {
+  margin: 10vw auto;
+  text-align: center; }
+  .failure__message__text {
+    font-weight: bold;
+    margin-top: 1vw; }

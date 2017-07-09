@@ -12,7 +12,7 @@
   background-color: white;
 }
 .aboutUpperSection {
-  padding: 5vw 10vw 2vw 10vw;
+  padding: 5vw 4vw 2vw 10vw;
   &__title {
     font-weight: bold;
     display: inline-block;
@@ -21,6 +21,7 @@
     @include media-query(mobile) {
       display: block;
       margin-bottom: 1vw;
+      font-size: 3vw;
     }
   }
   &__content {
@@ -33,6 +34,9 @@
   &__item {
     font-size: 1.2vw;
     padding-bottom: 0.5vw;
+    @include media-query(mobile) {
+      font-size: 2.5vw;
+    }
   }
 }
 

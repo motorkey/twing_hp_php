@@ -91,7 +91,6 @@
       }
     }
     &__lower {
-      height: 60%;
       width: 100%;
       margin-left: 3vw;
       padding-top: 2vw;
@@ -100,6 +99,7 @@
       }
       &--3rd {
         margin-left: 4vw;
+        width: 110%;
         @media screen and (max-width: 900px) {
           width: 105%;
         }

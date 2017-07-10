@@ -218,7 +218,6 @@ a.link-underline--cancel {
         width: 105%;
         margin-left: 8%; }
     .project__right__lower {
-      height: 60%;
       width: 100%;
       margin-left: 3vw;
       padding-top: 2vw; }
@@ -226,7 +225,8 @@ a.link-underline--cancel {
         .project__right__lower {
           margin-left: 0; } }
       .project__right__lower--3rd {
-        margin-left: 4vw; }
+        margin-left: 4vw;
+        width: 110%; }
         @media screen and (max-width: 900px) {
           .project__right__lower--3rd {
             width: 105%; } }

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-07-08 23:38:08
+<?php /* Smarty version 2.6.30, created on 2017-07-10 16:14:23
          compiled from contact.tpl */ ?>
 <html lang="ja">
 
@@ -68,7 +68,8 @@
       <span class="horizontal-line__inner js-horizontal-line-slide-in"></span>
     </div>
   </div>
-  <div class="topSection__under-text">お問い合わせ先</div>
+  <div class="topSection__under-text">お問い合わせ先 </div>
+  <div class="topSection__under-notice">※必ず全項目を入力してください。</div>
 </div>
 
 <div class="contactNav">
@@ -121,12 +122,12 @@
     <div id="tab2" class="tab-pane">
       <form class="contactForm" action="/confirm.php" method="POST">
         <div class="contactForm__item">
-          <label class="contactForm__form-label" for="company_name">大学名</label>
-          <input type="text" name="company_name" class="contactForm__form" id="univ_name" autofocus>
+          <label class="contactForm__form-label" for="univ_name">大学名</label>
+          <input type="text" name="univ_name" class="contactForm__form" id="univ_name" autofocus>
         </div>
         <div class="contactForm__item">
-          <label class="contactForm__form-label" for="department">学部・学科</label>
-          <input type="text" name="department" class="contactForm__form" id="department">
+          <label class="contactForm__form-label" for="univ_department">学部・学科</label>
+          <input type="text" name="univ_department" class="contactForm__form" id="department">
         </div>
         <div class="contactForm__item">
           <label class="contactForm__form-label" for="email">メールアドレス</label>
@@ -138,10 +139,10 @@
         </div>
         <div class="contactForm__item">
           <label class="contactForm__form-label" for="request">問い合わせ理由</label>
-          <select name="request" class="contactForm__form contactForm__form-select" id="request">
-            <option value="a">イベント参加</option>
-            <option value="b">個人面談希望</option>
-            <option value="c">その他</option>
+          <select name="select_request" class="contactForm__form contactForm__form-select" id="request">
+            <option value="イベント参加希望">イベント参加</option>
+            <option value="個人面談希望">個人面談希望</option>
+            <option value="その他希望">その他</option>
           </select>
         </div>
         <div class="contactForm__item contactForm__item__btn">
@@ -152,12 +153,12 @@
     <div id="tab3" class="tab-pane">
       <form class="contactForm" action="/confirm.php" method="POST">
         <div class="contactForm__item">
-          <label class="contactForm__form-label" for="company_name">大学名</label>
-          <input type="text" name="company_name" class="contactForm__form" id="univ_name" autofocus>
+          <label class="contactForm__form-label" for="univ_name">大学名</label>
+          <input type="text" name="univ_name" class="contactForm__form" id="univ_name" autofocus>
         </div>
         <div class="contactForm__item">
-          <label class="contactForm__form-label" for="department">部署</label>
-          <input type="text" name="department" class="contactForm__form" id="department">
+          <label class="contactForm__form-label" for="univ_job_department">部署</label>
+          <input type="text" name="univ_job_department" class="contactForm__form" id="department">
         </div>
         <div class="contactForm__item">
           <label class="contactForm__form-label" for="name">お名前</label>

@@ -585,6 +585,10 @@ a.link-underline--cancel {
       -webkit-flex: 1;
       flex: 1;
       border-top: 1px solid #000; }
+  .topSection__under-notice {
+    color: red;
+    margin-top: 1vw;
+    font-weight: bold; }
   @media screen and (max-width: 640px) {
     .topSection .sp__horizontal-line--none {
       flex: initial;

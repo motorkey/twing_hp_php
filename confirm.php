@@ -3,7 +3,7 @@
 mb_language("Japanese");
 mb_internal_encoding("UTF-8");
 
-$to = 'a.mitsuyori.15@gmail.com'; // localでの確認用
+$to = 'info@twing.tokyo';
 
 if ($_POST['name'] == null) {
   $_POST['name'] = '学生';

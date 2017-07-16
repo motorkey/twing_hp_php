@@ -430,13 +430,15 @@
     }
   }
   &__outer-circle {
-    background-color: #838383; //debug
-    width: 70%;
+    background-color: #fff;
+    //width: 70%;
+    width: 50%;//topCoverが完成するまで
     margin: auto;
     position: absolute;
     right: 0;
     left: 0;
-    padding-top: 70%;
+    //padding-top: 70%;
+    padding-top: 50%;//topCoverが完成するまで
     border-radius: 100%;
     @include media-query (mobile) {
       width: 45%;
@@ -869,7 +871,7 @@
       z-index: 1;
       @include media-query(mobile) {
         width: 100%;
-        height: 70vw;
+        height: 73vw;
         margin-top: 0.5vh;
       }
     }

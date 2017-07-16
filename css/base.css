@@ -501,7 +501,7 @@ a.link-underline--cancel {
     height: 100%;
     background-color: #fff; }
   .topCover-image__outer-circle {
-    background-color: #838383;
+    background-color: #fff;
     width: 70%;
     margin: auto;
     position: absolute;
@@ -709,7 +709,7 @@ a.link-underline--cancel {
       @media screen and (max-width: 640px) {
         .topPeople__person__image {
           width: 100%;
-          height: 70vw;
+          height: 73vw;
           margin-top: 0.5vh; } }
 
 .scroll-to-top {

@@ -16,53 +16,14 @@
 </head>
 
 <body class="top">
-<header class="topHeader topHeader--sp">
-  <div class="topHeader__logo">
-    <a href="/pages/index">
-      {html_image file='/img/logo.png' alt='logo' class='topHeader__logo__image'}
-    </a>
-  </div>
-  <nav>
-    <div class="topHeader__hamburger hamburger">
-      <span class="hamburger__line hamburger__line--top"></span>
-      <span class="hamburger__line hamburger__line--mid"></span>
-      <span class="hamburger__line hamburger__line--bot"></span>
-    </div>
-    <div class="topHeader__hamburger__menu">
-      <ul class="hamburger__gnavs">
-        <a href="company-top" class="link-underline--cancel">
-          <li class="hamburger__gnavs__item">企業の方へ</li>
-        </a>
-        <a href="student-top" class="link-underline--cancel">
-          <li class="hamburger__gnavs__item">学生の方へ</li>
-        </a>
-        <a href="university-top" class="link-underline--cancel">
-          <li class="hamburger__gnavs__item">大学の方へ</li>
-        </a>
-        <a href="news" class="link-underline--cancel">
-          <li class="hamburger__gnavs__item">ニュース</li>
-        </a>
-        <a href="/pages/about" class="link-underline--cancel">
-          <li class="hamburger__gnavs__item">会社概要</li>
-        </a>
-        <a href="profile" class="link-underline--cancel">
-          <li class="hamburger__gnavs__item">プロフィール</li>
-        </a>
-        <a href="/pages/contact" class="link-underline--cancel">
-          <li class="hamburger__gnavs__item">お問い合わせ</li>
-        </a>
-      </ul>
-    </div>
-  </nav>
-</header>
-
+{include file='common/header.tpl'}
 <div class="topCover">
   <div class="topCover__eyecatch">
     <img class="topCover__eyecatch__title" src="/img/top/cover/eyecatch.png">
   </div>
   <section class="topCover__image-list clearfix">
     <div class="topCover-image topCover-image--left">
-      <div class="topCover-image__filter--left"></div>
+      {*<div class="topCover-image__filter--left"></div>*}
       <div class="topCover-image__outer-circle topCover-image__outer-circle--left">
         <div class="topCover-image__outer-circle__inner-circle js-topCover-change-inner">
           <span>企業の方へ</span>
@@ -221,7 +182,7 @@
         </p>
         <div class="project__right__lower project__right__lower--3rd hidden-sp">
           <p class="projectText">
-            メーカーでの技術系の仕事を志す理系学生に対し、“強みである/魅力ある
+            メーカーでの技術職を志す理系学生に対し、“強みである/魅力ある
           </p>
           <p class="projectText topProjectIndentXs projectText--3rd">
             職種“を切り口にメーカーの職種を研究開発-計画/製造-品質管理-営業-
@@ -247,8 +208,8 @@
         </div>
         <div class="project__right__lower project__right__lower--3rd hidden-pc">
           <span class="projectText">
-            メーカーでの技術系の仕事を志す理系学生に対し、“強みである/魅力ある職種“を切り口にメーカーの職種を研究開発-計画/製造-品質管理-営業-保守】に大別し、各分野で強みを持つ企業様にそれぞれの実際に行うこと・やりがい・リアルを語っていただく。
-            理系の花型である“研究開発“以外のフィールドも理解してもらえるよう魅力・意義を伝え、リアルを伝える事で学生の職種選択の判断材料を提供。イベント内で学生の視野を広げ、企業魅力が最も伝わりやすい形で興味喚起を行うことが出来ます。
+            メーカーでの技術職を志す理系学生に対し、“強みである/魅力ある職種“を切り口にメーカーの職種を研究開発-計画/製造-品質管理-営業-保守】に大別し、企業様にそれぞれの実際に行うこと・やりがい・リアルを語っていただく。
+            理系の花型である“研究開発“以外のフィールドも理解してもらえるよう魅力・意義・リアルを伝える事で学生の職種選択の判断材料を提供。イベント内で学生の視野を広げ、企業魅力が伝わりやすい形で興味喚起を行うことが出来ます。
           </span>
         </div>
       </div>
@@ -332,10 +293,11 @@
     <div class="topNews__article-box">
       <div class="topNews__left-border--hover" id="first-border"></div>
       <article class="topNews__article clearfix" id="first-news">
-        <time class="topNews__article__date" datetime="2017-5-29" pubdate="pubdate">2017年5月29日</time>
-        <h3 class="topNews__article__title">最新のニュースのタイトル</h3>
+        <time class="topNews__article__date" datetime="2017-7-20" pubdate="pubdate">2017年7月20日</time>
+        <h3 class="topNews__article__title">ホームページを更新しました</h3>
       </article>
     </div>
+    {* 2番目以降のニュース
     <div class="topNews__article-box">
       <div class="topNews__left-border--hover" id="second-border"></div>
       <article class="topNews__article clearfix" id="second-news">
@@ -350,6 +312,7 @@
         <h3 class="topNews__article__title">3番目のニュースのタイトル</h3>
       </article>
     </div>
+    *}
     <div class="topNews__all-news hidden-sp">
       <a class="topNews__all-news__link" href="news.html">全てのニュースを見る</a>
     </div>
@@ -390,46 +353,7 @@
     <a class="scroll-to-top__inner" href="#top">ページの先頭へ戻る</a>
   </div>
 </section>
-
-<footer class="footer">
-  <div class="footer--left">
-    <div class="footer__logo">
-      <a href="/pages/index">
-        <img class="footer__logo__image", src="/img/logo-2.png" alt="logo">
-      </a>
-    </div>
-  </div>
-  <div class="footer--right footer__gnavs">
-    <ul class="footer__gnavs--left">
-      <li class="footer__gnavs__item">・
-        <a href="company-top" class="link-underline--cancel">企業の方へ</a>
-      </li>
-      <li class="footer__gnavs__item">・
-        <a href="student-top" class="link-underline--cancel">学生の方へ</a>
-      </li>
-      <li class="footer__gnavs__item">・
-        <a href="university-top" class="link-underline--cancel">大学の方へ</a>
-      </li>
-    </ul>
-    <ul class="footer__gnavs--right">
-      <li class="footer__gnavs__item">・
-        <a href="news.html" class="link-underline--cancel">ニュース</a>
-      </li>
-      <li class="footer__gnavs__item">・
-        <a href="/pages/about" class="link-underline--cancel">会社概要</a>
-      </li>
-      <li class="footer__gnavs__item">・
-        <a href="#" class="link-underline--cancel">プロフィール</a>
-      </li>
-      <li class="footer__gnavs__item">・
-        <a href="/pages/contact" class="link-underline--cancel">お問い合わせ</a>
-      </li>
-    </ul>
-  </div>
-  <div class="footer__copyright">
-    <span>© 2017 Anivia Works</span>
-  </div>
-</footer>
+{include file='common/footer.tpl'}
 </body>
 
 </html>

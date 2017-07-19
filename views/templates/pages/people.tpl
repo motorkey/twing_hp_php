@@ -16,7 +16,7 @@
 <script type="text/javascript" src="/js/contact.js"></script>
 </head>
 
-<body class="contact" data-apy="spyscroll">
+<body class="peoplePage" data-apy="spyscroll">
 {include file='common/header.tpl'}
 <div class="contact-page__title">
   <div class="topSection__title">
@@ -27,7 +27,7 @@
   </div>
 </div>
 
-<div class="people">
+<div class="peopleList">
   <div class="poeple__person">
     <div class="poeple__person__image"><img src="/img/people/person-1.png" alt="Person Image"></div>
     <div class="poeple__person__text peoplePersonText">

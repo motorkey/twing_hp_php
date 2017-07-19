@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-07-19 16:00:25
+<?php /* Smarty version 2.6.30, created on 2017-07-19 16:18:21
          compiled from news.tpl */ ?>
 <html lang="ja">
 
@@ -18,7 +18,7 @@
 <script type="text/javascript" src="/js/contact.js"></script>
 </head>
 
-<body class="contact" data-apy="spyscroll">
+<body class="news" data-apy="spyscroll">
 <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => 'common/header.tpl', 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;

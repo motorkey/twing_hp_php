@@ -16,7 +16,7 @@
 <script type="text/javascript" src="/js/contact.js"></script>
 </head>
 
-<body class="contact" data-apy="spyscroll">
+<body class="news" data-apy="spyscroll">
 {include file='common/header.tpl'}
 <div class="contact-page__title">
   <div class="topSection__title">

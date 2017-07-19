@@ -30,6 +30,16 @@ class PagesController
     $this->view->display('about.tpl');
   }
 
+  public function newsAction()
+  {
+    $this->view->display('news.tpl');
+  }
+
+  public function peopleAction()
+  {
+    $this->view->display('people.tpl');
+  }
+
   public function successAction()
   {
     $this->view->display('success.tpl');

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-07-19 16:31:29
+<?php /* Smarty version 2.6.30, created on 2017-07-19 16:55:14
          compiled from people.tpl */ ?>
 <html lang="ja">
 
@@ -18,7 +18,7 @@
 <script type="text/javascript" src="/js/contact.js"></script>
 </head>
 
-<body class="contact" data-apy="spyscroll">
+<body class="peoplePage" data-apy="spyscroll">
 <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => 'common/header.tpl', 'smarty_include_vars' => array()));
 $this->_tpl_vars = $_smarty_tpl_vars;
@@ -33,7 +33,7 @@ unset($_smarty_tpl_vars);
   </div>
 </div>
 
-<div class="people">
+<div class="peopleList">
   <div class="poeple__person">
     <div class="poeple__person__image"><img src="/img/people/person-1.png" alt="Person Image"></div>
     <div class="poeple__person__text peoplePersonText">

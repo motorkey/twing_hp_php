@@ -27,7 +27,7 @@
   </div>
 </div>
 
-<div class="peopleList">
+<div class="people">
   <div class="poeple__person">
     <div class="poeple__person__image"><img src="/img/people/person-1.png" alt="Person Image"></div>
     <div class="poeple__person__text peoplePersonText">

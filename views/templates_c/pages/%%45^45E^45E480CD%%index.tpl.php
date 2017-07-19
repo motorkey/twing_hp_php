@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-07-19 15:54:17
+<?php /* Smarty version 2.6.30, created on 2017-07-19 16:55:39
          compiled from index.tpl */ ?>
 <html lang="ja">
 
@@ -23,7 +23,6 @@ $this->_smarty_include(array('smarty_include_tpl_file' => 'common/header.tpl', '
 $this->_tpl_vars = $_smarty_tpl_vars;
 unset($_smarty_tpl_vars);
  ?>
-
 <div class="topCover">
   <div class="topCover__eyecatch">
     <img class="topCover__eyecatch__title" src="/img/top/cover/eyecatch.png">

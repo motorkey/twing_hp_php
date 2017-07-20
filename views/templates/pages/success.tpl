@@ -4,8 +4,6 @@
 
 <meta charset="utf-8">
 <title>中小企業向けの採用支援なら | 株式会社ツイング</title>
-<meta name="description" content=".....">
-<meta name="keywords" content="...,...">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/css/initialize.css">
 <link rel="stylesheet" href="/css/base.css">

@@ -935,3 +935,33 @@ a.link-underline--cancel {
   .failure__message__text {
     font-weight: bold;
     margin-top: 1vw; }
+
+.people {
+  padding: 30px 3vw 60px 3vw; }
+  @media screen and (max-width: 640px) {
+    .people {
+      padding: 20px 0 40px 0; } }
+  .people__person {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding-bottom: 20px; }
+    @media screen and (max-width: 640px) {
+      .people__person {
+        -webkit-flex-direction: column;
+        flex-direction: column; } }
+    .people__person__text {
+      padding-left: 3vw; }
+      @media screen and (max-width: 640px) {
+        .people__person__text {
+          padding: 20px 6vw 0 6vw; } }
+
+.peoplePersonText__name {
+  font-size: 2vw; }
+  @media screen and (max-width: 640px) {
+    .peoplePersonText__name {
+      font-size: 4vw; } }
+
+.peoplePersonText__info {
+  padding-top: 12px; }

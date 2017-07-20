@@ -2,21 +2,41 @@
 }
 
 .people {
+  padding: 30px 3vw 60px 3vw;
+  @include media-query (mobile) {
+    padding: 20px 0 40px 0;
+  }
   &__person {
-    &__person__image {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    @include media-query (mobile) {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+    &__image {
 
     }
-    &__person__text {
-
+    &__text {
+      padding-left: 3vw;
+      @include media-query (mobile) {
+        padding: 20px 6vw 0 6vw;
+      }
     }
   }
 }
 
 .peoplePersonText {
   &__name {
-
+    font-size: 2vw;
+    @include media-query (mobile) {
+      font-size: 4vw;
+    }
   }
   &__info {
+    padding-top: 12px;
     &__title {
 
     }

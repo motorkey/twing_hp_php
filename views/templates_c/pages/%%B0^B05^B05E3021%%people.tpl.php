@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-07-19 16:55:14
+<?php /* Smarty version 2.6.30, created on 2017-07-20 02:13:58
          compiled from people.tpl */ ?>
 <html lang="ja">
 
@@ -33,10 +33,10 @@ unset($_smarty_tpl_vars);
   </div>
 </div>
 
-<div class="peopleList">
-  <div class="poeple__person">
-    <div class="poeple__person__image"><img src="/img/people/person-1.png" alt="Person Image"></div>
-    <div class="poeple__person__text peoplePersonText">
+<div class="people">
+  <div class="people__person clearfix">
+    <div class="people__person__image"><img src="/img/people/person-1.png" alt="Person Image"></div>
+    <div class="people__person__text peoplePersonText">
       <div class="peoplePersonText__name"><span>井川 皓貴</span><span>Koki Ikawa</span></div>
       <div class="peoplePersonText__info">
           <div class="peoplePersonText__info__title">経歴</div>
@@ -44,9 +44,9 @@ unset($_smarty_tpl_vars);
       </div>
     </div>
   </div>
-  <div class="poeple__person">
-    <div class="poeple__person__image"><img src="/img/people/person-2.png" alt="Person Image"></div>
-    <div class="poeple__person__text peoplePersonText">
+  <div class="people__person">
+    <div class="people__person__image"><img src="/img/people/person-2.png" alt="Person Image"></div>
+    <div class="people__person__text peoplePersonText">
       <div class="peoplePersonText__name"><span>志禮 直也</span><span>Naoya Shirei</span></div>
       <div class="peoplePersonText__info">
           <div class="peoplePersonText__info__title">経歴</div>
@@ -54,9 +54,9 @@ unset($_smarty_tpl_vars);
       </div>
     </div>
   </div>
-  <div class="poeple__person">
-    <div class="poeple__person__image"><img src="/img/people/person-3.png" alt="Person Image"></div>
-    <div class="poeple__person__text peoplePersonText">
+  <div class="people__person">
+    <div class="people__person__image"><img src="/img/people/person-3.png" alt="Person Image"></div>
+    <div class="people__person__text peoplePersonText">
       <div class="peoplePersonText__name"><span>難波 春吾</span><span>Shungo Namba</span></div>
       <div class="peoplePersonText__info">
           <div class="peoplePersonText__info__title">経歴</div>
@@ -64,9 +64,9 @@ unset($_smarty_tpl_vars);
       </div>
     </div>
   </div>
-  <div class="poeple__person">
-    <div class="poeple__person__image"><img src="/img/people/person-4.png" alt="Person Image"></div>
-    <div class="poeple__person__text peoplePersonText">
+  <div class="people__person">
+    <div class="people__person__image"><img src="/img/people/person-4.png" alt="Person Image"></div>
+    <div class="people__person__text peoplePersonText">
       <div class="peoplePersonText__name"><span>横小路 直記</span><span>Naoki Yokokoji</span></div>
       <div class="peoplePersonText__info">
           <div class="peoplePersonText__info__title">経歴</div>

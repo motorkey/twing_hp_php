@@ -217,7 +217,7 @@
   </section>
 
   <section class="topSection__content">
-    <div class="project2">
+    <div class="topSection__content__inner project2">
       <div class="project2__inner">
         <div class="project2__left">
           <div class="project2__left__upper">

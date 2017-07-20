@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-07-20 02:06:52
+<?php /* Smarty version 2.6.30, created on 2017-07-20 16:55:08
          compiled from index.tpl */ ?>
 <html lang="ja">
 
@@ -222,7 +222,7 @@ unset($_smarty_tpl_vars);
   </section>
 
   <section class="topSection__content">
-    <div class="project2">
+    <div class="topSection__content__inner project2">
       <div class="project2__inner">
         <div class="project2__left">
           <div class="project2__left__upper">

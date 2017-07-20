@@ -8,6 +8,7 @@ $breakpoints: (
   'mobile': 'screen and (max-width: 640px)',
   //'tablet': 'screen and (min-width: 980px)',
 ) !default;
+$top-inner-max-width: 1280px;
 $top-section-padding: 24px;
 $top-section-content-margin: 8px;
 $top-project-padding: 68px;

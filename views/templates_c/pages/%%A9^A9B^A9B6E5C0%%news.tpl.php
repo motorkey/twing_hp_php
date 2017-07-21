@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-07-19 16:18:21
+<?php /* Smarty version 2.6.30, created on 2017-07-21 11:01:13
          compiled from news.tpl */ ?>
 <html lang="ja">
 

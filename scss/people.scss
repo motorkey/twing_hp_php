@@ -3,6 +3,7 @@
 
 .people {
   padding: 30px 3vw 60px 3vw;
+  max-width: $top-inner-max-width;
   @include media-query (mobile) {
     padding: 20px 0 40px 0;
   }

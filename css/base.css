@@ -148,8 +148,7 @@ a.link-underline--cancel {
     box-sizing: border-box;
     height: 100%;
     padding-left: 5vw;
-    padding-top: 16px;
-    padding-bottom: 16px; }
+    padding-top: 22px; }
     @media screen and (max-width: 640px) {
       .topHeader__logo {
         padding-left: 20px;

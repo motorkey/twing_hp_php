@@ -329,16 +329,24 @@
   <!--<span class="topSection__title__line topSection__title__line--v"></span>-->
   <section class="topSection__content topPeople clearfix">
     <article class="topPeople__person">
-      <img class="topPeople__person__image" src="/img/top/people/person-1.png" alt="Person Image">
+      <a href="people#person-1">
+        <img class="topPeople__person__image" src="/img/top/people/person-1.png" alt="Person Image">
+      </a>
     </article>
     <article class="topPeople__person">
-      <img class="topPeople__person__image" src="/img/top/people/person-2.png" alt="Person Image">
+      <a href="people#person-2">
+        <img class="topPeople__person__image" src="/img/top/people/person-2.png" alt="Person Image">
+      </a>
     </article>
     <article class="topPeople__person">
-      <img class="topPeople__person__image" src="/img/top/people/person-3.png" alt="Person Image">
+      <a href="people#person-3">
+        <img class="topPeople__person__image" src="/img/top/people/person-3.png" alt="Person Image">
+      </a>
     </article>
     <article class="topPeople__person">
-      <img class="topPeople__person__image" src="/img/top/people/person-4.png" alt="Person Image">
+      <a href="people#person-4">
+        <img class="topPeople__person__image" src="/img/top/people/person-4.png" alt="Person Image">
+      </a>
     </article>
   </section>
   <div class="scroll-to-top">

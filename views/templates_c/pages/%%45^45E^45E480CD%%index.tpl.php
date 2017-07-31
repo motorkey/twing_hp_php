@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-07-20 16:55:08
+<?php /* Smarty version 2.6.30, created on 2017-07-31 16:29:32
          compiled from index.tpl */ ?>
 <html lang="ja">
 
@@ -318,16 +318,24 @@ unset($_smarty_tpl_vars);
   <!--<span class="topSection__title__line topSection__title__line--v"></span>-->
   <section class="topSection__content topPeople clearfix">
     <article class="topPeople__person">
-            <img class="topPeople__person__image" src="/img/top/people/person-1.png" alt="Person Image">
+      <a href="people#person-1">
+        <img class="topPeople__person__image" src="/img/top/people/person-1.png" alt="Person Image">
+      </a>
     </article>
     <article class="topPeople__person">
-            <img class="topPeople__person__image" src="/img/top/people/person-2.png" alt="Person Image">
+      <a href="people#person-2">
+        <img class="topPeople__person__image" src="/img/top/people/person-2.png" alt="Person Image">
+      </a>
     </article>
     <article class="topPeople__person">
-            <img class="topPeople__person__image" src="/img/top/people/person-3.png" alt="Person Image">
+      <a href="people#person-3">
+        <img class="topPeople__person__image" src="/img/top/people/person-3.png" alt="Person Image">
+      </a>
     </article>
     <article class="topPeople__person">
-            <img class="topPeople__person__image" src="/img/top/people/person-4.png" alt="Person Image">
+      <a href="people#person-4">
+        <img class="topPeople__person__image" src="/img/top/people/person-4.png" alt="Person Image">
+      </a>
     </article>
   </section>
   <div class="scroll-to-top">

@@ -329,23 +329,15 @@
   <!--<span class="topSection__title__line topSection__title__line--v"></span>-->
   <section class="topSection__content topPeople clearfix">
     <article class="topPeople__person">
-      {*<p class="topPeople__person__slogan">一人ずつキャッチコピーをここに入れる</p>
-      <h3 class="topPeople__person__name">井川 皓貴</h3>*}
       <img class="topPeople__person__image" src="/img/top/people/person-1.png" alt="Person Image">
     </article>
     <article class="topPeople__person">
-      {*<p class="topPeople__person__slogan">一人ずつキャッチコピーをここに入れる</p>
-      <h3 class="topPeople__person__name">井川 皓貴</h3>*}
       <img class="topPeople__person__image" src="/img/top/people/person-2.png" alt="Person Image">
     </article>
     <article class="topPeople__person">
-      {*<p class="topPeople__person__slogan">一人ずつキャッチコピーをここに入れる</p>
-      <h3 class="topPeople__person__name">井川 皓貴</h3>*}
       <img class="topPeople__person__image" src="/img/top/people/person-3.png" alt="Person Image">
     </article>
     <article class="topPeople__person">
-      {*<p class="topPeople__person__slogan">一人ずつキャッチコピーをここに入れる</p>
-      <h3 class="topPeople__person__name">井川 皓貴</h3>*}
       <img class="topPeople__person__image" src="/img/top/people/person-4.png" alt="Person Image">
     </article>
   </section>

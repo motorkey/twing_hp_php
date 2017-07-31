@@ -10,17 +10,20 @@
   &__person {
     display: -webkit-flex;
     display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;
-    padding-bottom: 20px;
+    padding-bottom: 6vw;
     @include media-query (mobile) {
       -webkit-flex-direction: column;
       flex-direction: column;
+      padding-bottom: 8vw;
     }
     &__image {
-
+      flex-grow: 1;
+      img {
+        width: 100%;
+      }
     }
     &__text {
+      flex-grow: 1;
       padding-left: 3vw;
       @include media-query (mobile) {
         padding: 20px 6vw 0 6vw;
@@ -35,9 +38,18 @@
     @include media-query (mobile) {
       font-size: 4vw;
     }
+    &__kanji {
+    }
+    &__roman {
+      margin-left: 2vw;
+    }
   }
   &__info {
+    font-size: 1.3vw;
     padding-top: 12px;
+    @include media-query (mobile) {
+        font-size: 2vw;
+    }
     &__title {
 
     }

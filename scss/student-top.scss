@@ -1,0 +1,147 @@
+/*
+ * variables
+ */
+
+
+/*
+ * style
+ */
+.studentTopCover {
+  position: relative;
+  width: 100%;
+  //height: calc(100vw * 278 / 833 / 2);
+  display: -webkit-flex;
+  display: flex;
+  &__left {
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+  &__middle {
+    width: 12%;
+    background-color: #c3d8ed;
+  }
+  &__right {
+    width: 38%;
+    background-color: #77abd7;
+  }
+  &__eyecatch {
+    position: absolute;
+    width: 24%;
+    top: 8%;
+    right: 16%;
+    &__img {
+      width: 100%;
+    }
+  }
+}
+
+.studentTopVision {
+  padding-top: 4vw;
+  padding-bottom: 5.8vw;
+  padding-left: 8.5vw;
+  @include media-query(mobile) {
+    padding-top: 6vw;
+    padding-left: 4.5vw;
+    padding-bottom: 12vw;
+  }
+  &__title {
+    padding-left: 4vw;
+    padding-bottom: 1.2vw;
+    border-bottom: 1px solid #000;
+    font-size: 2.8vw;
+    position: relative;
+    @include media-query(mobile) {
+      font-size: 4.2vw;
+    }
+    &__border-circle {
+      position: absolute;
+      bottom: -0.5vw;
+      left: -0.8vw;
+      width: 0.7vw;
+      height: 0.7vw;
+      border: 1px solid #000;
+      border-radius: 100%;
+    }
+  }
+  &__description {
+    padding-left: 4vw;
+    padding-top: 1.8vw;
+    padding-right: 2vw;
+    font-size: 1.32vw;
+    line-height: 2.4vw;
+    @include media-query(mobile) {
+      padding-top: 5vw;
+      line-height: 6vw;
+    }
+  }
+}
+
+.studentTopContent {
+  padding-top: 2.5vw;
+  padding-right: 10vw;
+  padding-bottom: 6vw;
+  padding-left: 8.5vw;
+  background-color: #edf0f2;
+  @include media-query(mobile) {
+    padding-left: 4.5vw;
+    padding-right: 0;
+  }
+  &__title {
+    font-size: 2.2vw;
+    @include media-query(mobile) {
+      font-size: 3.6vw;
+    }
+  }
+  &__event-list {
+
+  }
+}
+
+.studentTopEvent {
+  margin-top: 3vw;
+  background-color: $main-theme-color;
+  display: -webkit-flex;
+  display: flex;
+  height: 16vw;
+  padding-top: 3vw;
+  padding-right: 2vw;
+  padding-left: 2.4vw;
+  @include media-query(mobile) {
+    height: 45vw;
+    flex-direction: column;
+  }
+  &--1 {
+    border-left: 1.8vw solid #59b0e1;
+  }
+  &--2 {
+    border-left: 1.8vw solid #588dc7;
+  }
+  &--3 {
+    border-left: 1.8vw solid #2459a1;
+  }
+  &--4 {
+    border-left: 1.8vw solid #0f3972;
+  }
+  &__title {
+    width: 26%;
+    font-size: 2vw;
+    @include media-query(mobile) {
+      font-size: 3.6vw;
+      width: auto;
+    }
+  }
+  &__description {
+    width: 74%;
+    font-size: 1.6vw;
+    @include media-query(mobile) {
+      width: auto;
+    }
+    &__1 {
+      margin-bottom: 2vw;
+    }
+    &__2 {
+    }
+  }
+}

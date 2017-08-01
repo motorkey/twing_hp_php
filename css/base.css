@@ -977,3 +977,24 @@ a.link-underline--cancel {
   @media screen and (max-width: 640px) {
     .peoplePersonText__info {
       font-size: 2vw; } }
+
+.studentTopCover {
+  position: relative;
+  width: 100%;
+  display: -webkit-flex;
+  display: flex; }
+  .studentTopCover__left {
+    width: 50%; }
+    .studentTopCover__left img {
+      width: 100%; }
+  .studentTopCover__middle {
+    width: 12%;
+    background-color: #c3d8ed; }
+  .studentTopCover__right {
+    width: 38%;
+    background-color: #77abd7; }
+  .studentTopCover__eyecatch {
+    position: absolute;
+    width: 28vw;
+    top: 3vw;
+    right: 25vw; }

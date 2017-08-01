@@ -1,3 +1,5 @@
+<?php /* Smarty version 2.6.30, created on 2017-08-01 02:38:20
+         compiled from student-top.tpl */ ?>
 <html lang="ja">
 
 <head>
@@ -16,7 +18,11 @@
 </head>
 
 <body class="student-top">
-{include file='common/header.tpl'}
+<?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => 'common/header.tpl', 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
 <div class="studentTopCover">
   <div class="studentTopCover__left">
     <img src="/img/student-top/cover.png" alt="Cover Image">
@@ -52,7 +58,11 @@
     </div>
   </div>
 </div>
-{include file='common/footer.tpl'}
+<?php $_smarty_tpl_vars = $this->_tpl_vars;
+$this->_smarty_include(array('smarty_include_tpl_file' => 'common/footer.tpl', 'smarty_include_vars' => array()));
+$this->_tpl_vars = $_smarty_tpl_vars;
+unset($_smarty_tpl_vars);
+ ?>
 </body>
 
 </html>

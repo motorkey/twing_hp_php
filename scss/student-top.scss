@@ -1,0 +1,27 @@
+.studentTopCover {
+  position: relative;
+  width: 100%;
+  //height
+  display: -webkit-flex;
+  display: flex;
+  &__left {
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+  &__middle {
+    width: 12%;
+    background-color: #c3d8ed;
+  }
+  &__right {
+    width: 38%;
+    background-color: #77abd7;
+  }
+  &__eyecatch {
+    position: absolute;
+    width: 28vw;
+    top: 3vw;
+    right: 25vw;
+  }
+}

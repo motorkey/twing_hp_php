@@ -50,6 +50,11 @@ class PagesController
     $this->view->display('failure.tpl');
   }
 
+  public function studentTopAction()
+  {
+    $this->view->display('student-top.tpl');
+  }
+
   // BaseControllerに記述するか？
   public function setAction($actionName)
   {

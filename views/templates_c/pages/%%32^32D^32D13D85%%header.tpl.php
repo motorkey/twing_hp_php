@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-07-19 15:54:17
+<?php /* Smarty version 2.6.30, created on 2017-08-01 01:43:32
          compiled from common/header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'html_image', 'common/header.tpl', 4, false),)), $this); ?>
@@ -17,13 +17,13 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'html_image'
     </div>
     <div class="topHeader__hamburger__menu">
       <ul class="hamburger__gnavs">
-        <a href="company-top" class="link-underline--cancel">
+        <a href="companyTop" class="link-underline--cancel">
           <li class="hamburger__gnavs__item">企業の方へ</li>
         </a>
-        <a href="student-top" class="link-underline--cancel">
+        <a href="studentTop" class="link-underline--cancel">
           <li class="hamburger__gnavs__item">学生の方へ</li>
         </a>
-        <a href="university-top" class="link-underline--cancel">
+        <a href="universityTop" class="link-underline--cancel">
           <li class="hamburger__gnavs__item">大学の方へ</li>
         </a>
         <a href="/pages/news" class="link-underline--cancel">

@@ -12,13 +12,13 @@
     </div>
     <div class="topHeader__hamburger__menu">
       <ul class="hamburger__gnavs">
-        <a href="company-top" class="link-underline--cancel">
+        <a href="companyTop" class="link-underline--cancel">
           <li class="hamburger__gnavs__item">企業の方へ</li>
         </a>
-        <a href="student-top" class="link-underline--cancel">
+        <a href="studentTop" class="link-underline--cancel">
           <li class="hamburger__gnavs__item">学生の方へ</li>
         </a>
-        <a href="university-top" class="link-underline--cancel">
+        <a href="universityTop" class="link-underline--cancel">
           <li class="hamburger__gnavs__item">大学の方へ</li>
         </a>
         <a href="/pages/news" class="link-underline--cancel">

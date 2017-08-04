@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-08-04 13:02:25
+<?php /* Smarty version 2.6.30, created on 2017-08-04 15:15:13
          compiled from student-top.tpl */ ?>
 <html lang="ja">
 

@@ -20,7 +20,7 @@
 <img class="UpperImage" src="
 /img/about/background.png" alt="aboutImg">
 
-<div class="aboutContent">
+<div class="content--about">
   <div class="aboutUpperSection">
     <div class="aboutUpperSection__title">会社概要</div>
     <div class="aboutUpperSection__content">

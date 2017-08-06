@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-07-19 16:00:28
+<?php /* Smarty version 2.6.30, created on 2017-08-06 17:11:14
          compiled from about.tpl */ ?>
 <html lang="ja">
 
@@ -26,7 +26,7 @@ unset($_smarty_tpl_vars);
 <img class="UpperImage" src="
 /img/about/background.png" alt="aboutImg">
 
-<div class="aboutContent">
+<div class="content--about">
   <div class="aboutUpperSection">
     <div class="aboutUpperSection__title">会社概要</div>
     <div class="aboutUpperSection__content">

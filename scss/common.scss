@@ -11,9 +11,27 @@
   clear: both;
 }
 
-// degub
 body {
-  background-color: white;
+  /* コンテンツ量が少ないときにfooterを最下部に固定する
+  min-height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;*/
+}
+
+.content {
+  //flex: 1;
+  &--top {
+
+  }
+  &--about {
+    border: 1px solid gray;
+    margin: 0 5vw; // temp
+    z-index: 2;
+    position: relative;
+    bottom: 10vw;
+    background-color: white;
+  }
 }
 
 .logo {

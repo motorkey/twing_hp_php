@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   -webkit-text-size-adjust: 100%; }
 
@@ -7,6 +8,18 @@
   clear: both; }
 
 body {
+  /* コンテンツ量が少ないときにfooterを最下部に固定する
+  min-height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;*/ }
+
+.content--about {
+  border: 1px solid gray;
+  margin: 0 5vw;
+  z-index: 2;
+  position: relative;
+  bottom: 10vw;
   background-color: white; }
 
 .logo {
@@ -879,14 +892,6 @@ a.link-underline--cancel {
 .UpperImage {
   width: 100vw;
   z-index: 1; }
-
-.aboutContent {
-  border: 1px solid gray;
-  margin: 0 5vw;
-  z-index: 2;
-  position: relative;
-  bottom: 10vw;
-  background-color: white; }
 
 .aboutUpperSection {
   padding: 5vw 4vw 2vw 10vw; }

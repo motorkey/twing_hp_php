@@ -990,32 +990,32 @@ a.link-underline--cancel {
   display: -webkit-flex;
   display: flex; }
   .studentTopCover__left {
-    width: 50%; }
+    width: 60%; }
     .studentTopCover__left img {
       width: 100%; }
   .studentTopCover__middle {
-    width: 12%;
+    width: 15%;
     background-color: #c3d8ed; }
   .studentTopCover__right {
-    width: 38%;
+    width: 35%;
     background-color: #77abd7; }
   .studentTopCover__eyecatch {
     position: absolute;
-    width: 24%;
+    width: 27%;
     top: 8%;
-    right: 16%; }
+    right: 7%; }
     .studentTopCover__eyecatch__img {
       width: 100%; }
 
 .studentTopVision {
   padding-top: 4vw;
   padding-bottom: 5.8vw;
-  padding-left: 8.5vw; }
+  padding-left: 9.5vw; }
   @media screen and (max-width: 640px) {
     .studentTopVision {
       padding-top: 6vw;
-      padding-left: 4.5vw;
-      padding-bottom: 12vw; } }
+      padding-left: 5.5vw;
+      padding-bottom: 10vw; } }
   .studentTopVision__title {
     padding-left: 4vw;
     padding-bottom: 1.2vw;
@@ -1024,7 +1024,7 @@ a.link-underline--cancel {
     position: relative; }
     @media screen and (max-width: 640px) {
       .studentTopVision__title {
-        font-size: 4.2vw; } }
+        font-size: 5vw; } }
     .studentTopVision__title__border-circle {
       position: absolute;
       bottom: -0.5vw;
@@ -1034,15 +1034,21 @@ a.link-underline--cancel {
       border: 1px solid #000;
       border-radius: 100%; }
   .studentTopVision__description {
-    padding-left: 4vw;
-    padding-top: 1.8vw;
+    padding-left: 2vw;
+    padding-top: 2vw;
     padding-right: 2vw;
-    font-size: 1.32vw;
-    line-height: 2.4vw; }
+    font-size: 1.4vw;
+    line-height: 2.8vw; }
     @media screen and (max-width: 640px) {
       .studentTopVision__description {
-        padding-top: 5vw;
+        font-size: 2.8vw;
         line-height: 6vw; } }
+    .studentTopVision__description__half {
+      display: -webkit-flex;
+      display: flex; }
+      @media screen and (max-width: 640px) {
+        .studentTopVision__description__half {
+          display: inline; } }
 
 .studentTopContent {
   padding-top: 2.5vw;
@@ -1055,13 +1061,14 @@ a.link-underline--cancel {
       padding-left: 4.5vw;
       padding-right: 0; } }
   .studentTopContent__title {
-    font-size: 2.2vw; }
+    font-size: 2.6vw;
+    margin-bottom: -1vw; }
     @media screen and (max-width: 640px) {
       .studentTopContent__title {
         font-size: 3.6vw; } }
 
 .studentTopEvent {
-  margin-top: 3vw;
+  margin-top: 3.6vw;
   background-color: #fff;
   display: -webkit-flex;
   display: flex;
@@ -1071,7 +1078,7 @@ a.link-underline--cancel {
   padding-left: 2.4vw; }
   @media screen and (max-width: 640px) {
     .studentTopEvent {
-      height: 45vw;
+      height: 40vw;
       flex-direction: column; } }
   .studentTopEvent--1 {
     border-left: 1.8vw solid #59b0e1; }
@@ -1083,16 +1090,20 @@ a.link-underline--cancel {
     border-left: 1.8vw solid #0f3972; }
   .studentTopEvent__title {
     width: 26%;
-    font-size: 2vw; }
+    font-size: 2.2vw; }
     @media screen and (max-width: 640px) {
       .studentTopEvent__title {
-        font-size: 3.6vw;
-        width: auto; } }
+        font-size: 4vw;
+        width: auto;
+        display: -webkit-flex;
+        display: flex; } }
   .studentTopEvent__description {
     width: 74%;
-    font-size: 1.6vw; }
+    font-size: 1.4vw; }
     @media screen and (max-width: 640px) {
       .studentTopEvent__description {
-        width: auto; } }
+        width: auto;
+        font-size: 2.4vw;
+        margin-top: 4vw; } }
     .studentTopEvent__description__1 {
-      margin-bottom: 2vw; }
+      margin-bottom: 3vw; }

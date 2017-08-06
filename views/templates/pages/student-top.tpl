@@ -33,7 +33,12 @@
     <div class="studentTopVision__title__border-circle"></div>
   </div>
   <div class="studentTopVision__description">
-    <p>関わった学生全員が一人ひとりに合った最適なキャリアプランを見つけられるよう、厳しく優しく徹底的にお手伝いします。</p><p>365日いつでも頼れる就活お兄さんとして、”あったらいいな”の就活サポートを実現します。</p>
+    <div class="studentTopVision__description__half">
+      <p>関わった学生全員が一人ひとりに合った最適なキャリアプラン</p><p>を見つけられるよう、厳しく優しく徹底的にお手伝いします。</p>
+    </div>
+    <div class="studentTopVision__description__half">
+      <p>365日いつでも頼れる就活お兄さんとして、</p><p>”あったらいいな”の就活サポートを実現します。</p>
+    </div>
   </div>
 </div>
 <div class="studentTopContent">

@@ -3,9 +3,11 @@ $(function() {
   //
   var breakpoint = 640;
 
+  var $window = $(window);
+
   // topCover-imageの中の文字をPCとSPで変える
-  $(window).resize(function(){
-    var windowWidth = $(window).width();
+  $window.resize(function(){
+    var windowWidth = $window.width();
     if (windowWidth <= breakpoint) {
         $('.js-topCover-change-inner').html('<span>企業の方へ</span>');
     } else {

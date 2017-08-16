@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="/css/base.css">
 <link rel="icon" href="/img/favicon.ico">
 <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
 <script type="text/javascript" src="/js/university-top.js"></script>
 
 </head>

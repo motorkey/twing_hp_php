@@ -55,6 +55,11 @@ class PagesController
     $this->view->display('student-top.tpl');
   }
 
+  public function universityTopAction()
+  {
+    $this->view->display('university-top.tpl');
+  }
+
   // BaseControllerに記述するか？
   public function setAction($actionName)
   {

@@ -1112,3 +1112,144 @@ a.link-underline--cancel {
         margin-top: 4vw; } }
     .studentTopEvent__description__1 {
       margin-bottom: 3vw; }
+
+/*
+ * variables
+ */
+/*
+ * style
+ */
+.universityTopCover {
+  position: relative;
+  width: 100%;
+  display: -webkit-flex;
+  display: flex; }
+  .universityTopCover__left {
+    width: 60%; }
+    .universityTopCover__left img {
+      width: 100%; }
+  .universityTopCover__middle {
+    width: 15%;
+    background-color: #208478; }
+  .universityTopCover__right {
+    width: 35%;
+    background-color: #0e5d58; }
+  .universityTopCover__eyecatch {
+    position: absolute;
+    width: 27%;
+    top: 8%;
+    right: 7%; }
+    .universityTopCover__eyecatch__img {
+      width: 100%; }
+
+.universityTopVision {
+  padding-top: 4vw;
+  padding-bottom: 5.8vw;
+  padding-left: 9.5vw;
+  display: -webkit-flex;
+  display: flex; }
+  @media screen and (max-width: 640px) {
+    .universityTopVision {
+      padding-top: 6vw;
+      padding-left: 5.5vw;
+      padding-bottom: 10vw; } }
+  .universityTopVision__title {
+    padding-top: 5vw;
+    border-right: 1px solid #000;
+    padding-left: 4vw;
+    padding-bottom: 1.2vw;
+    border-bottom: 1px solid #000;
+    font-size: 2.8vw;
+    position: relative;
+    width: 40%; }
+    @media screen and (max-width: 640px) {
+      .universityTopVision__title {
+        font-size: 5vw; } }
+    .universityTopVision__title__border-circle {
+      position: absolute;
+      bottom: -0.5vw;
+      left: -0.8vw;
+      width: 0.7vw;
+      height: 0.7vw;
+      border: 1px solid #000;
+      border-radius: 100%; }
+  .universityTopVision__description {
+    border-top: 1px solid #000;
+    padding-left: 2vw;
+    padding-top: 2vw;
+    padding-right: 2vw;
+    font-size: 1.4vw;
+    line-height: 2.8vw;
+    width: 60%; }
+    @media screen and (max-width: 640px) {
+      .universityTopVision__description {
+        font-size: 2.8vw;
+        line-height: 6vw; } }
+    .universityTopVision__description__half {
+      display: -webkit-flex;
+      display: flex; }
+      @media screen and (max-width: 640px) {
+        .universityTopVision__description__half {
+          display: inline; } }
+
+.universityTopContent {
+  padding-top: 2.5vw;
+  padding-right: 10vw;
+  padding-bottom: 6vw;
+  padding-left: 8.5vw; }
+  @media screen and (max-width: 640px) {
+    .universityTopContent {
+      padding-left: 4.5vw;
+      padding-right: 0; } }
+  .universityTopContent__summary {
+    display: -webkit-flex;
+    display: flex; }
+
+.utContentSummaryBox {
+  width: 50%;
+  height: 40vw; }
+  .utContentSummaryBox--left {
+    background-color: #208478; }
+  .utContentSummaryBox--right {
+    background-color: #edf0f2; }
+
+.universityTopEvent {
+  margin-top: 3.6vw;
+  background-color: #fff;
+  display: -webkit-flex;
+  display: flex;
+  height: 16vw;
+  padding-top: 3vw;
+  padding-right: 2vw;
+  padding-left: 2.4vw; }
+  @media screen and (max-width: 640px) {
+    .universityTopEvent {
+      height: 40vw;
+      flex-direction: column; } }
+  .universityTopEvent--1 {
+    border-left: 1.8vw solid #59b0e1; }
+  .universityTopEvent--2 {
+    border-left: 1.8vw solid #588dc7; }
+  .universityTopEvent--3 {
+    border-left: 1.8vw solid #2459a1; }
+  .universityTopEvent--4 {
+    border-left: 1.8vw solid #0f3972; }
+  .universityTopEvent__title {
+    width: 26%;
+    font-size: 2.2vw; }
+    @media screen and (max-width: 640px) {
+      .universityTopEvent__title {
+        font-size: 4vw;
+        width: auto;
+        display: -webkit-flex;
+        display: flex; } }
+  .universityTopEvent__description {
+    width: 74%;
+    font-size: 1.4vw; }
+    @media screen and (max-width: 640px) {
+      .universityTopEvent__description {
+        width: auto;
+        font-size: 2.4vw;
+        margin-top: 4vw; } }
+    .universityTopEvent__description__1 {
+      margin-bottom: 3vw; }

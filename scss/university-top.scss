@@ -1,0 +1,197 @@
+/*
+ * variables
+ */
+
+
+/*
+ * style
+ */
+.universityTopCover {
+  position: relative;
+  width: 100%;
+  //height: calc(100vw * 278 / 833 / 2);
+  display: -webkit-flex;
+  display: flex;
+  &__left {
+    width: 60%;
+    img {
+      width: 100%;
+    }
+  }
+  &__middle {
+    width: 15%;
+    background-color: #208478;
+  }
+  &__right {
+    width: 35%;
+    background-color: #0e5d58;
+  }
+  &__eyecatch {
+    position: absolute;
+    width: 27%;
+    top: 8%;
+    right: 7%;
+    &__img {
+      width: 100%;
+    }
+  }
+}
+
+.universityTopVision {
+  padding-top: 4vw;
+  padding-bottom: 5.8vw;
+  padding-left: 9.5vw;
+
+  // uni-top
+  display: -webkit-flex;
+  display: flex;
+
+  @include media-query(mobile) {
+    padding-top: 6vw;
+    padding-left: 5.5vw;
+    padding-bottom: 10vw;
+  }
+  &__title {
+
+    // uni-top
+    padding-top: 5vw;
+    border-right: 1px solid #000;
+
+    padding-left: 4vw;
+    padding-bottom: 1.2vw;
+    border-bottom: 1px solid #000;
+    font-size: 2.8vw;
+    position: relative;
+    width: 40%;
+    @include media-query(mobile) {
+      font-size: 5vw;
+    }
+    &__border-circle {
+      position: absolute;
+      bottom: -0.5vw;
+      left: -0.8vw;
+      width: 0.7vw;
+      height: 0.7vw;
+      border: 1px solid #000;
+      border-radius: 100%;
+    }
+  }
+  &__description {
+
+    // uni-top
+    border-top: 1px solid #000;
+
+    padding-left: 2vw;
+    padding-top: 2vw;
+    padding-right: 2vw;
+    font-size: 1.4vw;
+    line-height: 2.8vw;
+    width: 60%;
+    @include media-query(mobile) {
+      font-size: 2.8vw;
+      line-height: 6vw;
+    }
+    &__half {
+      display: -webkit-flex;
+      display: flex;
+      @include media-query(mobile) {
+        display: inline;
+      }
+    }
+  }
+}
+
+.universityTopContent {
+  padding-top: 2.5vw;
+  padding-right: 10vw;
+  padding-bottom: 6vw;
+  padding-left: 8.5vw;
+  @include media-query(mobile) {
+    padding-left: 4.5vw;
+    padding-right: 0;
+  }
+  &__summary {
+    display: -webkit-flex;
+    display: flex;
+    @include media-query(mobile) {
+    }
+    &__box {
+    }
+  }
+  &__event-list {
+    &__title {
+
+    }
+    &__box {
+      
+    }
+  }
+}
+
+.utContentSummaryBox {
+  width: 50%;
+  height: 40vw;
+  &--left {
+    background-color: #208478;
+  }
+  &--right {
+    background-color: #edf0f2;
+  }
+  &__title {
+
+  }
+  &__content {
+
+  }
+}
+
+.universityTopEvent {
+  margin-top: 3.6vw;
+  background-color: $main-theme-color;
+  display: -webkit-flex;
+  display: flex;
+  height: 16vw;
+  padding-top: 3vw;
+  padding-right: 2vw;
+  padding-left: 2.4vw;
+  @include media-query(mobile) {
+    height: 40vw;
+    flex-direction: column;
+  }
+  &--1 {
+    border-left: 1.8vw solid #59b0e1;
+  }
+  &--2 {
+    border-left: 1.8vw solid #588dc7;
+  }
+  &--3 {
+    border-left: 1.8vw solid #2459a1;
+  }
+  &--4 {
+    border-left: 1.8vw solid #0f3972;
+  }
+  &__title {
+    width: 26%;
+    font-size: 2.2vw;
+    @include media-query(mobile) {
+      font-size: 4vw;
+      width: auto;
+      display: -webkit-flex;
+      display: flex;
+    }
+  }
+  &__description {
+    width: 74%;
+    font-size: 1.4vw;
+    @include media-query(mobile) {
+      width: auto;
+      font-size: 2.4vw;
+      margin-top: 4vw;
+    }
+    &__1 {
+      margin-bottom: 3vw;
+    }
+    &__2 {
+    }
+  }
+}

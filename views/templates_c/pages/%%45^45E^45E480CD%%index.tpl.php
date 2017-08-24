@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-07-31 16:29:32
+<?php /* Smarty version 2.6.30, created on 2017-08-17 01:27:02
          compiled from index.tpl */ ?>
 <html lang="ja">
 
@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="/css/base.css">
 <link rel="icon" href="/img/favicon.ico">
 <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
 <script type="text/javascript" src="/js/top.js"></script>
 
 </head>

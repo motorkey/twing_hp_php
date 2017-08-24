@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
 <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
 <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
 <script type="text/javascript" src="/js/top.js"></script>
 <script type="text/javascript" src="/js/contact.js"></script>
 </head>

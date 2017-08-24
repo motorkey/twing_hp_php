@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-08-24 11:37:32
+<?php /* Smarty version 2.6.30, created on 2017-08-24 11:56:46
          compiled from university-top.tpl */ ?>
 <html lang="ja">
 
@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="/css/base.css">
 <link rel="icon" href="/img/favicon.ico">
 <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
 <script type="text/javascript" src="/js/university-top.js"></script>
 
 </head>
@@ -83,14 +84,11 @@ unset($_smarty_tpl_vars);
             <li>選考チャレンジ</li>
             <li>未内定者0プロジェクト</li>
           </ul>
-
         </div>
       </div>
     </div>
   </div>
-
   <div class="universityTopContent__gap"></div>
-
   <div class="universityTopContent__event-list">
     <div class="universityTopContent__event-list__title">
       <span>就活イベント</span>

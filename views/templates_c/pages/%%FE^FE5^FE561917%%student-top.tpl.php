@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-<?php /* Smarty version 2.6.30, created on 2017-08-24 11:44:35
-=======
-<?php /* Smarty version 2.6.30, created on 2017-08-17 01:26:10
->>>>>>> commonize-js
+<?php /* Smarty version 2.6.30, created on 2017-08-24 17:11:22
          compiled from student-top.tpl */ ?>
 <html lang="ja">
 
